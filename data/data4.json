@@ -1,0 +1,141 @@
+{
+  "planets": [
+    {
+      "name": "Tatooine",
+      "image": "tatooine.png"
+    },
+    {
+      "name": "Étoile Noire",
+      "image": "deathstar.png"
+    },
+    {
+      "name": "Yavin IV",
+      "image": "yavin4.png"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Luke Skywalker",
+      "color": "rgba(255, 99, 132, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 0
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 1
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Princess Leia",
+      "color": "rgba(54, 162, 235, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 2
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Han Solo",
+      "color": "rgba(255, 206, 86, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 0
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 1
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Darth Vader",
+      "color": "rgba(75, 192, 192, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 1
+        }
+      ]
+    }
+  ]
+}

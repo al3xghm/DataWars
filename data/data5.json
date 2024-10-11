@@ -1,0 +1,48 @@
+{
+  "planets": [
+    {
+      "name": "Hoth",
+      "image": "hoth.png"
+    },
+    {
+      "name": "Dagobah",
+      "image": "hoth.png"
+    },
+    {
+      "name": "Cloud City",
+      "image": "hoth.png"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Luke Skywalker",
+      "color": "rgba(255, 99, 132, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:10",
+          "planet": 0
+        },
+        {
+          "time": "00:40",
+          "planet": 1
+        }
+      ]
+    },
+    {
+      "name": "Darth Vader",
+      "color": "rgba(75, 192, 192, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:20",
+          "planet": 2
+        },
+        {
+          "time": "00:50",
+          "planet": 1
+        }
+      ]
+    }
+  ]
+}

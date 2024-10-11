@@ -1,0 +1,48 @@
+{
+  "planets": [
+    {
+      "name": "Endor",
+      "image": "hoth.png"
+    },
+    {
+      "name": "Death Star II",
+      "image": "hoth.png"
+    },
+    {
+      "name": "Tatooine",
+      "image": "tatooine.png"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Luke Skywalker",
+      "color": "rgba(255, 99, 132, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:05",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "planet": 1
+        }
+      ]
+    },
+    {
+      "name": "Han Solo",
+      "color": "rgba(255, 206, 86, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:10",
+          "planet": 2
+        },
+        {
+          "time": "00:45",
+          "planet": 0
+        }
+      ]
+    }
+  ]
+}
