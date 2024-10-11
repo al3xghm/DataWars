@@ -278,7 +278,7 @@ function setEpisodeButtonBackgrounds() {
 
     episodeButtons.forEach(button => {
         const episodeId = button.id.replace('episode', ''); // Récupérer le numéro de l'épisode à partir de l'ID
-        button.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('sw${episodeId}.png')`;
+        button.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/posters/sw${episodeId}.png')`;
         button.style.backgroundSize = 'cover'; // Ajuste la taille de l'image
         button.style.backgroundPosition = 'center'; // Centre l'image
     });

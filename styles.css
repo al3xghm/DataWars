@@ -163,7 +163,7 @@ header {
 }
 
 footer h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 0.9;
     letter-spacing: -6px;
 }
@@ -215,7 +215,7 @@ header .headerright .description, .legal {
 }
 
 .legal {
-    max-width: 700px;
+    max-width: 800px;
 }
 
 section {
@@ -367,10 +367,8 @@ button {
 }
 
 button.active {
-    border-color: yellow;
-    /* Changez ceci à la couleur souhaitée */
-    color: yellow;
-    /* Couleur du texte pour le bouton actif */
+    border-color: rgb(246, 246, 225);
+    color: rgb(246, 246, 225);
 }
 
 .episode-buttons {
