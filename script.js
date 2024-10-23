@@ -351,10 +351,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-});
-
-
     const audio = document.getElementById("myAudio");
     const toggleButton = document.getElementById("toggleSound");
 
@@ -363,14 +359,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Gérer le clic sur le bouton
     toggleButton.addEventListener("click", function () {
-        if (audio.volume === 0) {
-            // Activer le son
-            audio.volume = 1;
-            toggleButton.textContent = "🤫"; // Icône pour indiquer que le son est activé
+        if (audio.paused) {
+            audio.volume = 1; // Active le son
+            audio.play(); // Joue la musique
+            toggleButton.classList.add("active"); // Optionnel : changez l'apparence du bouton
+            toggleButton.textContent = "🤫"; // Optionnel : changez le texte du bouton
         } else {
-            // Couper le son
-            audio.volume = 0;
-            toggleButton.textContent = "🎷"; // Icône pour indiquer que le son est coupé
+            audio.pause(); // Met en pause la musique
+            toggleButton.classList.remove("active"); 
+            toggleButton.textContent = "🎷"; 
         }
-    }
-    );
+    });
+
+    
+});
