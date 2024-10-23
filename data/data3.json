@@ -1,46 +1,174 @@
 {
   "planets": [
     {
-      "name": "Endor",
-      "image": "hoth.png"
+      "name": "Coruscant",
+      "image": "tatooine.png"
     },
     {
-      "name": "Death Star II",
-      "image": "hoth.png"
+      "name": "Utapo",
+      "image": "deathstar.png"
     },
     {
-      "name": "Tatooine",
+      "name": "Kashyyyk",
+      "image": "yavin4.png"
+    },
+    {
+      "name": "Mustafar",
+      "image": "tatooine.png"
+    },
+    {
+      "name": "Aldoraan",
       "image": "tatooine.png"
     }
   ],
   "characters": [
     {
-      "name": "Luke Skywalker",
+      "name": "Anakin",
       "color": "rgba(255, 99, 132, 1)",
       "image": "luke.png",
       "path": [
         {
-          "time": "00:05",
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 2
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 4
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 3
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 5
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Obi wan",
+      "color": "rgba(54, 162, 235, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
           "planet": 0
         },
         {
           "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 2
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 4
+        }
+      ]
+    },
+    {
+      "name": "R2-D2",
+      "color": "rgba(255, 206, 86, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 5
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 6
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 7
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 1
+        },
+        {
+          "time": "02:00",
+          "event": "Victoire rebelle à Yavin IV",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Padme",
+      "color": "rgba(75, 192, 192, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
           "planet": 1
         }
       ]
     },
     {
-      "name": "Han Solo",
-      "color": "rgba(255, 206, 86, 1)",
+      "name": "Yoda",
+      "color": "rgba(75, 192, 192, 1)",
       "image": "luke.png",
       "path": [
         {
-          "time": "00:10",
-          "planet": 2
+          "time": "00:00",
+          "event": "Quête des droïdes sur Tatooine",
+          "planet": 1
         },
         {
-          "time": "00:45",
-          "planet": 0
+          "time": "00:30",
+          "event": "Destruction d'Alderaan",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Sauvetage de la Princesse Leia",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event": "Bataille de l'Étoile Noire",
+          "planet": 1
         }
       ]
     }

@@ -1,0 +1,21 @@
+{
+    "planets": [
+      {
+        "name": "Kashyyk",
+        "image": "https://i.pinimg.com/originals/57/1b/ed/571bed61046e085aa23e45d8c3f27dbf.jpg"
+      },
+      {
+        "name": "Tatooine",
+        "image": "https://wallpapercave.com/wp/wp5160780.jpg"
+      },
+      {
+        "name": "Bespin",
+        "image": "https://wallpapercave.com/wp/wp9145332.jpg"
+      },
+      {
+        "name": "Hoth",
+        "image": "https://wallpapercave.com/wp/wp7666347.jpg"
+      }
+    ]
+  }
+  

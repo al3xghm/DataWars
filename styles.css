@@ -16,7 +16,6 @@ body {
     font-family: 'Afacad Flux', sans-serif;
     margin: 0;
     scroll-behavior: smooth;
-    /* background-image: url(https://i.pinimg.com/originals/57/1b/ed/571bed61046e085aa23e45d8c3f27dbf.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -35,7 +34,6 @@ body {
     right: 20px;
     left: 20px;
     bottom: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/57/1b/ed/571bed61046e085aa23e45d8c3f27dbf.jpg);
     border-radius: 10px;
     /* overflow-y: scroll; */
     display: flex;
@@ -276,7 +274,7 @@ section {
 
 
 .navbar .logo img {
-    width: 100px;
+    width: 160px;
     height: auto;
     position: relative;
     display: block;
@@ -335,7 +333,7 @@ section {
 }
 
 canvas {
-    max-height: 500px;
+    max-height: 700px;
 }
 
 .canvas-pointer {

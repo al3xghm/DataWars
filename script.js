@@ -1,3 +1,31 @@
+async function fetchPlanets() {
+    const response = await fetch('data/planets.json');
+    return response.json();
+}
+
+// Fonction pour changer le fond de la page-wrap et le titre avec le nom de la planète
+async function updateBackgroundWithPlanet() {
+    const data = await fetchPlanets();
+    const planets = data.planets;
+
+    // Sélectionner une planète aléatoire
+    const randomPlanet = planets[Math.floor(Math.random() * planets.length)];
+
+    // Changer le background de la .page-wrap avec un linear-gradient + image
+    const pageWrap = document.querySelector('.page-wrap');
+    pageWrap.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('${randomPlanet.image}')`;
+    pageWrap.style.backgroundSize = 'cover';
+    pageWrap.style.backgroundPosition = 'center';
+
+    // Mettre à jour le texte "[Kashyyyk]" avec le nom de la planète sélectionnée
+    const planetNameElement = document.querySelector('.time');
+    planetNameElement.textContent = `[${randomPlanet.name}]`;
+}
+
+// Appeler la fonction au chargement de la page
+window.addEventListener('load', updateBackgroundWithPlanet);
+
+
 async function fetchData(episode) {
     const response = await fetch(`data/data${episode}.json`);
     return response.json();
