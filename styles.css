@@ -324,6 +324,23 @@ section {
     stroke-width: 2;
 }
 
+.sound {
+    position: fixed;
+    bottom: 35px;
+    right: 20px;
+    z-index: 2;
+}
+
+.mute-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.mute-btn:focus {
+    outline: none;
+}
 
 
 #chartContainer {
@@ -333,7 +350,7 @@ section {
 }
 
 canvas {
-    max-height: 700px;
+    max-height: 500px;
 }
 
 .canvas-pointer {

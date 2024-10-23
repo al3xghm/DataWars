@@ -17,6 +17,7 @@
     {
       "name": "Luke Skywalker",
       "color": "rgba(255, 99, 132, 1)",
+      "tension": 0.4,
       "image": "luke.png",
       "path": [
         {
@@ -81,6 +82,7 @@
     {
       "name": "Han Solo",
       "color": "rgba(255, 206, 86, 1)",
+      "tension": 0.2,
       "image": "luke.png",
       "path": [
         {

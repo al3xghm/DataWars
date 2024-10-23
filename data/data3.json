@@ -2,172 +2,149 @@
   "planets": [
     {
       "name": "Coruscant",
-      "image": "tatooine.png"
+      "image": "hoth.png"
     },
     {
-      "name": "Utapo",
-      "image": "deathstar.png"
+      "name": "Utapau",
+      "image": "hoth.png"
     },
     {
       "name": "Kashyyyk",
-      "image": "yavin4.png"
+      "image": "tatooine.png"
     },
     {
       "name": "Mustafar",
       "image": "tatooine.png"
     },
     {
-      "name": "Aldoraan",
+      "name": "Tatooine",
       "image": "tatooine.png"
     }
   ],
   "characters": [
     {
-      "name": "Anakin",
-      "color": "rgba(255, 99, 132, 1)",
+      "name": "Anakine Skywalker",
+      "color": "rgba(110, 40, 104, 1)",
       "image": "luke.png",
+      "tension": 0.4,
       "path": [
         {
-          "time": "00:00",
-          "event": "Quête des droïdes sur Tatooine",
-          "planet": 2
-        },
-        {
-          "time": "00:30",
-          "event": "Destruction d'Alderaan",
-          "planet": 4
-        },
-        {
-          "time": "01:00",
-          "event": "Sauvetage de la Princesse Leia",
-          "planet": 3
-        },
-        {
-          "time": "01:30",
-          "event": "Bataille de l'Étoile Noire",
-          "planet": 5
-        },
-        {
-          "time": "02:00",
-          "event": "Victoire rebelle à Yavin IV",
-          "planet": 2
-        }
-      ]
-    },
-    {
-      "name": "Obi wan",
-      "color": "rgba(54, 162, 235, 1)",
-      "image": "luke.png",
-      "path": [
-        {
-          "time": "00:00",
-          "event": "Quête des droïdes sur Tatooine",
+          "time": "00:05",
+          "event": "Bataille spaciale en orbite",
           "planet": 0
         },
         {
-          "time": "00:30",
-          "event": "Destruction d'Alderaan",
-          "planet": 1
+          "time": "00:20",
+          "event": "Traque des forces Séparatistes",
+          "planet": 0
         },
         {
-          "time": "01:00",
-          "event": "Sauvetage de la Princesse Leia",
-          "planet": 2
-        },
-        {
-          "time": "01:30",
-          "event": "Bataille de l'Étoile Noire",
+          "time": "00:45",
+          "event": "Naissance de Dark Vador",
           "planet": 3
         },
         {
-          "time": "02:00",
-          "event": "Victoire rebelle à Yavin IV",
+          "time": "00:55",
+          "event": "Exile sur Tatooine",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Obi One Kenobi",
+      "color": "rgba(63, 211, 234, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:05",
+          "event": "Bataille spaciale en orbite",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Traque des forces Séparatistes",
+          "planet": 1
+        },
+        {
+          "time": "00:45",
+          "event": "Naissance de Dark Vador",
+          "planet": 3
+        },
+        {
+          "time": "00:55",
+          "event": "Exile sur Tatooine",
           "planet": 4
-        }
-      ]
-    },
-    {
-      "name": "R2-D2",
-      "color": "rgba(255, 206, 86, 1)",
-      "image": "luke.png",
-      "path": [
-        {
-          "time": "00:00",
-          "event": "Quête des droïdes sur Tatooine",
-          "planet": 5
-        },
-        {
-          "time": "00:30",
-          "event": "Destruction d'Alderaan",
-          "planet": 6
-        },
-        {
-          "time": "01:00",
-          "event": "Sauvetage de la Princesse Leia",
-          "planet": 7
-        },
-        {
-          "time": "01:30",
-          "event": "Bataille de l'Étoile Noire",
-          "planet": 1
-        },
-        {
-          "time": "02:00",
-          "event": "Victoire rebelle à Yavin IV",
-          "planet": 2
-        }
-      ]
-    },
-    {
-      "name": "Padme",
-      "color": "rgba(75, 192, 192, 1)",
-      "image": "luke.png",
-      "path": [
-        {
-          "time": "00:00",
-          "event": "Quête des droïdes sur Tatooine",
-          "planet": 1
-        },
-        {
-          "time": "00:30",
-          "event": "Destruction d'Alderaan",
-          "planet": 1
-        },
-        {
-          "time": "01:00",
-          "event": "Sauvetage de la Princesse Leia",
-          "planet": 1
-        },
-        {
-          "time": "01:30",
-          "event": "Bataille de l'Étoile Noire",
-          "planet": 1
         }
       ]
     },
     {
       "name": "Yoda",
-      "color": "rgba(75, 192, 192, 1)",
+      "color": "rgba(120, 206, 86, 1)",
       "image": "luke.png",
       "path": [
         {
-          "time": "00:00",
-          "event": "Quête des droïdes sur Tatooine",
-          "planet": 1
+          "time": "00:05",
+          "event": "Bataille spaciale en orbite",
+          "planet": 0
         },
         {
-          "time": "00:30",
-          "event": "Destruction d'Alderaan",
-          "planet": 1
+          "time": "00:20",
+          "event": "Traque des forces Séparatistes",
+          "planet": 2
         },
         {
-          "time": "01:00",
-          "event": "Sauvetage de la Princesse Leia",
-          "planet": 1
+          "time": "00:45",
+          "event": "Naissance de Dark Vador",
+          "planet": 0
         },
         {
-          "time": "01:30",
-          "event": "Bataille de l'Étoile Noire",
+          "time": "00:55",
+          "event": "Exile sur Tatooine",
+          "planet": 0
+        }
+      ]
+    },
+    {
+      "name": "Palpatine",
+      "color": "rgba(180, 40, 104, 1)",
+      "image": "luke.png",
+      "tension": 0.2,
+      "path": [
+        {
+          "time": "00:05",
+          "event": "Bataille spaciale en orbite",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Traque des forces Séparatistes",
+          "planet": 0
+        },
+        {
+          "time": "00:45",
+          "event": "Naissance de Dark Vador",
+          "planet": 3
+        },
+        {
+          "time": "00:55",
+          "event": "Exile sur Tatooine",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Grievous",
+      "color": "rgba(223, 223, 101, 1)",
+      "image": "luke.png",
+      "path": [
+        {
+          "time": "00:05",
+          "event": "Bataille spaciale en orbite",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Traque des forces Séparatistes",
           "planet": 1
         }
       ]
