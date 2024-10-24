@@ -2,15 +2,15 @@
   "planets": [
     {
       "name": "Tatooine",
-      "image": "tatooine.png"
+      "image": "kashyyk.png"
     },
     {
       "name": "Étoile Noire",
-      "image": "deathstar.png"
+      "image": "tatooine.png"
     },
     {
       "name": "Yavin IV",
-      "image": "yavin4.png"
+      "image": "utapau.png"
     }
   ],
   "characters": [

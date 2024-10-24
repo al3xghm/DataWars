@@ -184,23 +184,39 @@ document.addEventListener("DOMContentLoaded", function () {
                         const isPlanetVisited = chart.data.datasets.some(dataset => {
                             return !dataset.hidden && dataset.data.some(point => point.y === index);
                         });
-
+                    
                         planet.opacity = isPlanetVisited ? 1 : 0;
-
+                    
                         chart.ctx.globalAlpha = planet.opacity;
                         const yPos = yScale.getPixelForValue(index);
-                        chart.ctx.drawImage(planet.img, chart.chartArea.left - 80, yPos - 30, 50, 50);
+                        
+                        // Position de l'image de la planète
+                        const planetXPosition = chart.chartArea.left - 80;
+                        const planetImageWidth = 50; // Largeur de l'image de la planète
+                    
+                        // Dessiner l'image de la planète
+                        chart.ctx.drawImage(planet.img, planetXPosition, yPos - 30, planetImageWidth, 50);
+                    
+                        // Configurer le style pour le texte
                         chart.ctx.fillStyle = 'white';
-                        chart.ctx.fillText(planet.name, chart.chartArea.left - 80, yPos + 35);
-
+                        chart.ctx.textAlign = 'center'; // Centrer le texte
+                    
+                        // Dessiner le texte centré sous l'image de la planète
+                        chart.ctx.fillText(
+                            planet.name, 
+                            planetXPosition + planetImageWidth / 2, // Position X centrée
+                            yPos + 35 // Position Y sous l'image
+                        );
+                    
                         // Ajouter la zone de la planète
                         planetAreas.push({
-                            x: chart.chartArea.left - 80,
+                            x: planetXPosition,
                             y: yPos - 30,
-                            width: 50,
+                            width: planetImageWidth,
                             height: 50
                         });
                     });
+                    
 
                     chart.ctx.globalAlpha = 1;
 

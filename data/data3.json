@@ -2,19 +2,19 @@
   "planets": [
     {
       "name": "Coruscant",
-      "image": "hoth.png"
+      "image": "coruscant.png"
     },
     {
       "name": "Utapau",
-      "image": "hoth.png"
+      "image": "utapau.png"
     },
     {
       "name": "Kashyyyk",
-      "image": "tatooine.png"
+      "image": "kashyyk.png"
     },
     {
       "name": "Mustafar",
-      "image": "tatooine.png"
+      "image": "mustafar.png"
     },
     {
       "name": "Tatooine",
@@ -135,6 +135,7 @@
     {
       "name": "Grievous",
       "color": "rgba(223, 223, 101, 1)",
+      "tension": 0.1,
       "image": "luke.png",
       "path": [
         {
