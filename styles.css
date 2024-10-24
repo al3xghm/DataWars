@@ -410,43 +410,66 @@ button.active {
     z-index: 1;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100vh;
-    /* Fond semi-transparent */
-    align-items: center;
-    justify-content: center;
 }
 
-.modal-content {
+.modal-wrap {
+    height: 100vh;
     background-color: black;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
-.modal-left {
-    width: 50%;
-}
-
-.modal-right {
-    width: 50%;
+.modal-content{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
 }
+
+.modal-wrapper{
+    display: flex;
+    gap: 4rem;
+}
+
+.modal-content-left{
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+
+.modal-content-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.modal-content h2 {
+font-size: 3rem;
+}
+
+
 .close {
     color: #aaa;
-    float: right;
+    position: fixed;
+    top: 15px;
+    right: 35px;
     font-size: 28px;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: grey;
     text-decoration: none;
     cursor: pointer;
 }

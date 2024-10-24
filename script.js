@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     async function fetchPlanets() {
-        const response = await fetch('data/planets.json');
+        const response = await fetch('data/planets-wallpaper.json');
         return response.json();
     }
 
@@ -334,36 +334,56 @@ document.addEventListener("DOMContentLoaded", function () {
     setEpisodeButtonBackgrounds();
 
 
-    // Sélectionner les éléments de la modale
-    const modal = document.getElementById("planetModal");
-    const span = document.getElementsByClassName("close")[0];
-    const planetNameElement = document.getElementById("planetName");
-    const planetImageElement = document.getElementById("planetImage");
-    const planetDescriptionElement = document.getElementById("planetDescription");
+   // Sélectionner les éléments de la modale
+const body = document.querySelector('body');   
+const modal = document.getElementById("planetModal");
+const span = document.getElementsByClassName("close")[0];
+const planetNameElement = document.getElementById("planetName");
+const planetImageElement = document.getElementById("planetImage");
+const planetDescriptionElement = document.getElementById("planetDescription");
+const planetLocationElement = document.getElementById("planetLocation");
+const planetTypeElement = document.getElementById("planetType");
+const planetPopulationElement = document.getElementById("planetPopulation");
+const planetClimateElement = document.getElementById("planetClimate");
+const planetLandscapeElement = document.getElementById("planetLandscape");
+const planetNotablePlacesElement = document.getElementById("planetNotablePlaces");
+const planetAffiliationElement = document.getElementById("planetAffiliation");
 
-    function showModal(planet) {
-        planetNameElement.innerText = planet.name;
-        planetImageElement.src = `images/planets/${planet.image}`;
-        planetDescriptionElement.innerText = `Description de ${planet.name}`;
+function showModal(planet) {
+    planetNameElement.innerText = planet.name;
+    planetImageElement.src = `images/planets/${planet.image}`;
+    planetDescriptionElement.innerText = planet.description;
+    planetLocationElement.innerText = `Localisation : ${planet.location}`;
+    planetTypeElement.innerText = `Type : ${planet.type}`;
+    planetPopulationElement.innerText = `Population : ${planet.population}`;
+    planetClimateElement.innerText = `Climat : ${planet.climate}`;
+    planetLandscapeElement.innerText = `Paysage : ${planet.landscape}`;
+    planetNotablePlacesElement.innerText = `Lieux remarquables : ${planet.notable_places.join(', ')}`;
+    planetAffiliationElement.innerText = `Affiliation : ${planet.affiliation.join(', ')}`;
 
-        // Ajoute la classe de rotation à l'image
-        planetImageElement.classList.add('rotate');
-        planetImageElement.style.maxWidth = '400px';
-        modal.style.display = "flex";
-    }
+    // Ajoute la classe de rotation à l'image
+    planetImageElement.classList.add('rotate');
+    planetImageElement.style.maxWidth = '400px';
+    modal.style.display = "flex";
+    body.style.overflow = 'hidden'; // Empêche le défilement de la page
+}
 
+// Fermer la modale lorsqu'on clique sur le bouton de fermeture
+span.onclick = function () {
+    modal.style.display = "none";
+    planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation à la fermeture
+    body.style.overflow = 'auto'; // Active le défilement de la page
+}
 
-    // Fermer la modale lorsqu'on clique sur le bouton de fermeture
-    span.onclick = function () {
+// Optionnel : Fermer la modale en cliquant en dehors d'elle
+window.onclick = function (event) {
+    if (event.target === modal) {
         modal.style.display = "none";
+        planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation
+        body.style.overflow = 'auto'; // Réactiver le défilement
     }
+}
 
-    // Fermer la modale en dehors de celle-ci
-    window.onclick = function (event) {
-        if (event.target === modal) {
-            modal.style.display = "none";
-        }
-    }
 
 
 

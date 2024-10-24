@@ -2,15 +2,39 @@
   "planets": [
     {
       "name": "Tatooine",
-      "image": "kashyyk.png"
+      "image": "tatooine.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "200 000",
+      "climate": "Aride",
+      "landscape": "Désert, canyons, oasis",
+      "notable_places": ["Mos Eisley", "Ferme des Lars", "Palais de Jabba le Hutt"],
+      "affiliation": ["Hutt", "Empire Galactique"],
+      "description": "Tatooine est une planète désertique située dans la Bordure Extérieure. Ses paysages arides sont dominés par des dunes de sable et des canyons rocheux. Mos Eisley est une ville portuaire notoire pour sa criminalité et son marché noir. La Ferme des Lars est le lieu de résidence de Luke Skywalker, tandis que le Palais de Jabba le Hutt est le repaire du célèbre seigneur du crime. Tatooine est le théâtre de nombreux événements clés de la saga Star Wars, notamment la rencontre entre Luke Skywalker et Obi-Wan Kenobi, ainsi que la libération de Han Solo."
     },
     {
       "name": "Étoile Noire",
-      "image": "tatooine.png"
+      "image": "deathstar.png",
+      "location": "Espace",
+      "type": "Station spatiale",
+      "population": "1,7 millions",
+      "climate": "Artificiel",
+      "landscape": "Urbain",
+      "notable_places": ["Salle du Trône", "Salle de Contrôle"],
+      "affiliation": ["Empire Galactique"],
+      "description": "L'Étoile Noire est une station spatiale de l'Empire Galactique. Elle est équipée d'un superlaser capable de détruire des planètes entières. La station abrite des milliers de soldats impériaux et des installations de contrôle sophistiquées. La Salle du Trône est le quartier général de l'Empereur Palpatine, tandis que la Salle de Contrôle est le centre névralgique de l'Étoile Noire."
     },
     {
       "name": "Yavin IV",
-      "image": "utapau.png"
+      "image": "yavin4.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Lune",
+      "population": "Inhabitée",
+      "climate": "Tempéré",
+      "landscape": "Forêts, temples",
+      "notable_places": ["Temple Massassi", "Base Rebelle"],
+      "affiliation": ["Alliance Rebelle"],
+      "description": "Yavin IV est une lune située dans la Bordure Extérieure. Elle abrite les ruines du Temple Massassi, un ancien sanctuaire Jedi. La Base Rebelle est un avant-poste secret de l'Alliance Rebelle, dissimulé au cœur de la jungle. C'est sur Yavin IV que les Rebelles ont planifié et lancé leur attaque contre l'Étoile Noire."
     }
   ],
   "characters": [

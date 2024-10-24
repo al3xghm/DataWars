@@ -2,23 +2,64 @@
   "planets": [
     {
       "name": "Coruscant",
-      "image": "coruscant.png"
-    },
+      "image": "coruscant.png",
+      "location": "Mondes du Noyau",
+      "type": "Œcuménopole",
+      "population": "998 374 milliards",
+      "climate": "Artificiel, tempéré",
+      "landscape": "Urbain",
+      "notable_places": ["Sénat Galactique", "Temple Jedi"],
+      "affiliation": ["Ordre Jedi", "République Galactique", "Empire Galactique"],
+      "description": "Coruscant est une planète entièrement urbanisée et située au centre de la galaxie. Capitale politique, elle symbolise l'apogée de la civilisation galactique. Le Temple Jedi et le Sénat Galactique sont deux de ses lieux emblématiques. Toutefois, sous les gratte-ciel scintillants, les niveaux inférieurs abritent criminalité et pauvreté, créant un contraste marqué avec les quartiers riches."
+    }
+    ,
     {
       "name": "Utapau",
-      "image": "utapau.png"
+      "image": "utapau.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "1,9 milliards",
+      "climate": "Sec",
+      "landscape": "Désert, canyons",
+      "notable_places": ["Cité de Pau City", "Plateau de la Cité des Ossements"],
+      "affiliation": ["Confédération des Systèmes Indépendants", "Empire Galactique"],
+      "description": "Utapau est une planète désertique située dans la Bordure Extérieure. Elle est connue pour ses vastes déserts et ses canyons profonds. La Cité de Pau City est le principal centre urbain de la planète, tandis que le Plateau de la Cité des Ossements abrite des vestiges anciens. Utapau est le lieu où le Général Grievous est vaincu par Obi-Wan Kenobi lors de la Guerre des Clones."
     },
     {
       "name": "Kashyyyk",
-      "image": "kashyyk.png"
+      "image": "kashyyk.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Forêts, plages",
+      "population": "45 milliards",
+      "climate": "Tropical",
+      "landscape": "Forêts, plages, océans",
+      "notable_places": ["Cité de Rwookrrorro", "Plateforme de la Cité des Arbres"],
+      "affiliation": ["République Galactique", "Empire Galactique"],
+      "description": "Kashyyyk est une planète recouverte de forêts tropicales et de plages de sable. Elle est le monde natal des Wookies, une espèce de grands mammifères poilus. La Cité de Rwookrrorro est la capitale des Wookies, tandis que la Plateforme de la Cité des Arbres est un lieu sacré pour leur peuple. Kashyyyk est le théâtre d'une bataille entre les forces de la République et de l'Empire Galactique."
     },
     {
       "name": "Mustafar",
-      "image": "mustafar.png"
+      "image": "mustafar.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Volcanique",
+      "population": "1 million",
+      "climate": "Chaud, volcanique",
+      "landscape": "Volcans, lacs de lave",
+      "notable_places": ["Forteresse de Dark Vador"],
+      "affiliation": ["Ordre Sith", "Empire Galactique"],
+      "description": "Mustafar est une planète volcanique située dans la Bordure Extérieure. Ses paysages sont dominés par des volcans en éruption et des lacs de lave brûlante. La Forteresse de Dark Vador est un lieu sinistre construit par l'ancien Jedi Anakin Skywalker après sa transformation en Seigneur Sith. Mustafar est le théâtre d'un duel épique entre Obi-Wan Kenobi et Anakin Skywalker, qui marque le début de la chute de ce dernier du côté obscur de la Force."
     },
     {
       "name": "Tatooine",
-      "image": "tatooine.png"
+      "image": "tatooine.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "200 000",
+      "climate": "Aride",
+      "landscape": "Désert, canyons, oasis",
+      "notable_places": ["Mos Eisley", "Ferme des Lars", "Palais de Jabba le Hutt"],
+      "affiliation": ["Hutt", "Empire Galactique"],
+      "description": "Tatooine est une planète désertique située dans la Bordure Extérieure. Ses paysages arides sont dominés par des dunes de sable et des canyons rocheux. Mos Eisley est une ville portuaire notoire pour sa criminalité et son marché noir. La Ferme des Lars est le lieu de résidence de Luke Skywalker, tandis que le Palais de Jabba le Hutt est le repaire du célèbre seigneur du crime. Tatooine est le théâtre de nombreux événements clés de la saga Star Wars, notamment la rencontre entre Luke Skywalker et Obi-Wan Kenobi, ainsi que la libération de Han Solo."
     }
   ],
   "characters": [
