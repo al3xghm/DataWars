@@ -289,7 +289,7 @@ section {
     width: 30px;
     height: 30px;
     background: red;
-    -webkit-mask-image: radial-gradient(circle 60px at 0 100%, transparent 0, transparent 30px, black 21px);
+    mask-image: radial-gradient(circle 60px at 0 100%, transparent 0, transparent 30px, black 21px);
 }
 
 .navbar img::before {

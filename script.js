@@ -145,7 +145,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         labels: characters[0].path.map(tee => tee.event),
                         ticks: {
                             font: {
-                                family: 'Afacad Flux'
+                                family: 'Afacad Flux',
+                                size: 14
                             },
                             color: 'rgba(255, 255, 255, 0.35)', // Gris clair pour les événements
                             align: 'start'
