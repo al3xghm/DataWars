@@ -1,46 +1,177 @@
 {
   "planets": [
     {
-      "name": "Endor",
-      "image": "hoth.png"
+      "name": "Ahch-To",
+      "image": "ahchto.png"
     },
     {
-      "name": "Death Star II",
-      "image": "hoth.png"
+      "name": "D'Qar",
+      "image": "dqar.png"
     },
     {
-      "name": "Tatooine",
-      "image": "tatooine.png"
+      "name": "Cantonica",
+      "image": "cantonica.png"
+    },
+    {
+      "name": "Crait",
+      "image": "crait.png"
     }
   ],
   "characters": [
     {
-      "name": "Luke Skywalker",
-      "color": "rgba(255, 99, 132, 1)",
-      "image": "luke.png",
+      "name": "Rey",
+      "color": "rgba(0, 228, 255, 1)",
       "path": [
         {
-          "time": "00:05",
+          "time": "00:00",
+          "event": "Fuite de la Résistance",
           "planet": 0
         },
         {
           "time": "00:30",
-          "planet": 1
+          "event": "Entreinement de Rey et poursuite de la Résistance",
+          "planet": 0
+        },
+        {
+          "time": "00:45",
+          "event": "Plan de sabotage du traqueur d'hyper-espace",
+          "planet": 0
+        },
+        {
+          "time": "01:20",
+          "event": "Mort de Snoke",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Crait",
+          "planet": 3
         }
       ]
     },
     {
-      "name": "Han Solo",
-      "color": "rgba(255, 206, 86, 1)",
-      "image": "luke.png",
+      "name": "Finn",
+      "color": "rgba(232, 118, 39, 1)",
       "path": [
         {
-          "time": "00:10",
-          "planet": 2
+          "time": "00:00",
+          "event": "Fuite de la Résistance",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Entreinement de Rey et poursuite de la Résistance",
+          "planet": 1
         },
         {
           "time": "00:45",
+          "event": "Plan de sabotage du traqueur d'hyper-espace",
+          "planet": 2
+        },
+        {
+          "time": "01:20",
+          "event": "Mort de Snoke",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Crait",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Leia Organa",
+      "color": "rgba(255, 255, 255, 1)",
+      "tension": 0.4,
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Fuite de la Résistance",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Entreinement de Rey et poursuite de la Résistance",
+          "planet": 1
+        },
+        {
+          "time": "00:45",
+          "event": "Plan de sabotage du traqueur d'hyper-espace",
+          "planet": 1
+        },
+        {
+          "time": "01:20",
+          "event": "Mort de Snoke",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Crait",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Luke Skywalker",
+      "color": "rgba(134, 173, 178, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Fuite de la Résistance",
           "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Entreinement de Rey et poursuite de la Résistance",
+          "planet": 0
+        },
+        {
+          "time": "00:45",
+          "event": "Plan de sabotage du traqueur d'hyper-espace",
+          "planet": 0
+        },
+        {
+          "time": "01:20",
+          "event": "Mort de Snoke",
+          "planet": 0
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Crait",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Kylo Ren",
+      "color": "rgba(255, 0, 0, 1)",
+      "tension": 0.1,
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Fuite de la Résistance",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Entreinement de Rey et poursuite de la Résistance",
+          "planet": 1
+        },
+        {
+          "time": "00:45",
+          "event": "Plan de sabotage du traqueur d'hyper-espace",
+          "planet": 1
+        },
+        {
+          "time": "01:20",
+          "event": "Mort de Snoke",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Crait",
+          "planet": 3
         }
       ]
     }

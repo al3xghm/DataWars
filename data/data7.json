@@ -1,46 +1,172 @@
 {
   "planets": [
     {
-      "name": "Endor",
-      "image": "hoth.png"
+      "name": "Jakku",
+      "image": "jakku.png"
     },
     {
-      "name": "Death Star II",
-      "image": "hoth.png"
+      "name": "D’Qar",
+      "image": "dqar.png"
     },
     {
-      "name": "Tatooine",
-      "image": "tatooine.png"
-    }
+      "name": "Ahch-To",
+      "image": "ahchto.png"
+    },
+    {
+      "name": "Star Killer",
+      "image": "starkiller.png"
+    },
+    {
+      "name": "Takodana ",
+      "image": "takodana.png"
+    } 
   ],
   "characters": [
     {
-      "name": "Luke Skywalker",
-      "color": "rgba(255, 99, 132, 1)",
-      "image": "luke.png",
+      "name": "Rey",
+      "color": "rgba(0, 228, 255, 1)",
+      "tension": 0.4,
       "path": [
         {
           "time": "00:05",
+          "event":"La montée du Premier Ordre",
           "planet": 0
         },
         {
+          "time": "00:20",
+          "event":"Rey découvre la Force",
+          "planet": 4
+        },
+        {
           "time": "00:30",
+          "event":"La mort de Han Solo aux mains de Kylo Ren",
+          "planet": 3
+        },
+        {
+          "time": "00:45",
+          "event":"Le duel final entre Rey et Kylo Ren",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event":"La découverte de Luke Skywalker",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Finn",
+      "color": "rgba(232, 118, 39, 1)",
+      "tension": 0.2,
+      "path": [
+        {
+          "time": "00:05",
+          "event":"La montée du Premier Ordre",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event":"Rey découvre la Force",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event":"La mort de Han Solo aux mains de Kylo Ren",
+          "planet": 1
+        },
+        {
+          "time": "00:45",
+          "event":"Le duel final entre Rey et Kylo Ren",
+          "planet": 3
+        },
+        {
+          "time": "01:00",
+          "event":"La découverte de Luke Skywalker",
+          "planet": 1
+        }
+      ]
+    },
+    {
+      "name": "BB8",
+      "color": "rgba(255, 255, 255, 1)",
+      "tension": 0.4,
+      "path": [
+        {
+          "time": "00:05",
+          "event":"La montée du Premier Ordre",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event":"Rey découvre la Force",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event":"La mort de Han Solo aux mains de Kylo Ren",
+          "planet": 1
+        },
+        {
+          "time": "00:45",
+          "event":"Le duel final entre Rey et Kylo Ren",
+          "planet": 3
+        },
+        {
+          "time": "01:00",
+          "event":"La découverte de Luke Skywalker",
           "planet": 1
         }
       ]
     },
     {
       "name": "Han Solo",
-      "color": "rgba(255, 206, 86, 1)",
-      "image": "luke.png",
+      "color": "rgba(178, 178, 178, 1)",
       "path": [
         {
-          "time": "00:10",
-          "planet": 2
+          "time": "00:05",
+          "event":"La montée du Premier Ordre",
+          "planet": 4
+        },
+        {
+          "time": "00:20",
+          "event":"Rey découvre la Force",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event":"La mort de Han Solo aux mains de Kylo Ren",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Kylo Ren",
+      "color": "rgba(255, 0, 0, 1)",
+      "path": [
+        {
+          "time": "00:05",
+          "event":"La montée du Premier Ordre",
+          "planet": 3
+        },
+        {
+          "time": "00:20",
+          "event":"Rey découvre la Force",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event":"La mort de Han Solo aux mains de Kylo Ren",
+          "planet": 3
         },
         {
           "time": "00:45",
-          "planet": 0
+          "event":"Le duel final entre Rey et Kylo Ren",
+          "planet": 3
+        },
+        {
+          "time": "01:00",
+          "event":"La découverte de Luke Skywalker",
+          "planet": 3
         }
       ]
     }

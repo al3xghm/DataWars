@@ -1,45 +1,245 @@
 {
     "planets": [
       {
+        "name": "Ajan Kloss",
+        "image": "ajankloss.png"
+      },
+      {
+        "name": "Pasaana",
+        "image": "pasaana.png"
+      },
+      {
+        "name": "Kijimi",
+        "image": "kijimi.png"
+      },
+      {
         "name": "Endor",
-        "image": "hoth.png"
+        "image": "endor.png"
       },
       {
-        "name": "Death Star II",
-        "image": "hoth.png"
+        "name": "Mustafar",
+        "image": "mustafar.png"
       },
       {
-        "name": "Tatooine",
-        "image": "tatooine.png"
+        "name": "Exegol",
+        "image": "exegol.png"
       }
+      
     ],
     "characters": [
       {
-        "name": "Luke Skywalker",
-        "color": "rgba(255, 99, 132, 1)",
-        "image": "luke.png",
+        "name": "Rey",
+        "color": "rgba(0, 228, 255, 1)",
+        "tension": 0.2,
         "path": [
           {
             "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
             "planet": 0
           },
           {
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 1
+          },
+          {
             "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 2
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 3
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 5
+          },
+          {
+            "time": "01:00",
+            "event":"Rey prend le nom de Skywalker",
+            "planet": 5
+          }
+        ]
+      },
+      {
+        "name": "Finn",
+        "color": "rgba(232, 118, 39, 1)",
+        "tension": 0.4,
+        "path": [
+          {
+            "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
+            "planet": 0
+          },
+          {
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 1
+          },
+          {
+            "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 2
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 3
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 0
+          },
+          {
+            "time": "01:00",
+            "event":"Rey prend le nom de Skywalker",
+            "planet": 5
+          }
+        ]
+      },
+      {
+        "name": "Chewbacca",
+        "color": "rgba(223, 204, 173, 1)",
+        "tension": 0.6,
+        "path": [
+          {
+            "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
+            "planet": 0
+          },
+          {
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 1
+          },
+          {
+            "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 1
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 1
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 5
+          },
+          {
+            "time": "01:00",
+            "event":"Rey prend le nom de Skywalker",
             "planet": 1
           }
         ]
       },
       {
-        "name": "Han Solo",
-        "color": "rgba(255, 206, 86, 1)",
-        "image": "luke.png",
+        "name": "Kylo Ren",
+        "color": "rgba(200, 140, 194, 1)",
+        "tension": 0.3,
         "path": [
           {
-            "time": "00:10",
-            "planet": 2
+            "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
+            "planet": 4
           },
           {
-            "time": "00:45",
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 5
+          },
+          {
+            "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 3
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 5
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 5
+          },
+          {
+            "time": "01:00",
+            "event":"Rey prend le nom de Skywalker",
+            "planet": 5
+          }
+        ]
+      },
+      {
+        "name": "Palpatine",
+        "color": "rgba(255, 0, 0, 1)",
+        "tension": 0.2,
+        "path": [
+          {
+            "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
+            "planet": 5
+          },
+          {
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 5
+          },
+          {
+            "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 5
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 5
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 5
+          }
+        ]
+      },
+      {
+        "name": "Lando Calrissan",
+        "color": "rgba(255, 206, 86, 1)",
+        "tension": 0.3,
+        "path": [
+          {
+            "time": "00:05",
+            "event":"Le retour de l'Empereur Palpatine",
+            "planet": 1
+          },
+          {
+            "time": "00:20",
+            "event":"Le sacrifice de Leia Organa",
+            "planet": 1
+          },
+          {
+            "time": "00:30",
+            "event":"Le duel final entre Rey et Kylo Ren",
+            "planet": 1
+          },
+          {
+            "time": "00:40",
+            "event":"Rey la petite-fille de Palpatine",
+            "planet": 1
+          },
+          {
+            "time": "00:50",
+            "event":"La destruction de la flotte Sith sur Exegol",
+            "planet": 5
+          },
+          {
+            "time": "01:00",
+            "event":"Rey prend le nom de Skywalker",
             "planet": 0
           }
         ]

@@ -1,12 +1,20 @@
 {
     "planets": [
       {
-        "name": "Endor",
-        "image": "hoth.png"
+        "name": "Kamino",
+        "image": "kamino.png"
       },
       {
-        "name": "Death Star II",
-        "image": "hoth.png"
+        "name": "Naboo",
+        "image": "naboo.png"
+      },
+      {
+        "name": "Geonosis",
+        "image": "geonosis.png"
+      },
+      {
+        "name": "Coruscant",
+        "image": "coruscant.png"
       },
       {
         "name": "Tatooine",
@@ -15,32 +23,137 @@
     ],
     "characters": [
       {
-        "name": "Luke Skywalker",
-        "color": "rgba(255, 99, 132, 1)",
-        "image": "luke.png",
+        "name": "Anakin Skywalker",
+        "color": "rgba(255, 224, 0, 1)",
+        "tension": 0.25,
         "path": [
           {
-            "time": "00:05",
-            "planet": 0
+            "time": "00:10",
+            "event":"Tentative d'assassinat de Padmé",
+            "planet": 3
+          },
+          {
+            "time": "00:20",
+            "event":"Anakin et Padmé sur Naboo",
+            "planet": 1
           },
           {
             "time": "00:30",
-            "planet": 1
+            "event":"Découverte du complot sur Geonosis",
+            "planet": 4
+          },
+          {
+            "time": "00:45",
+            "event":"Bataille de Geonosis",
+            "planet": 2
           }
         ]
       },
       {
-        "name": "Han Solo",
-        "color": "rgba(255, 206, 86, 1)",
-        "image": "luke.png",
+        "name": "Yoda",
+        "color": "rgba(120, 206, 86, 1)",
+        "tension": 0.55,
         "path": [
           {
             "time": "00:10",
+            "event":"Tentative d'assassinat de Padmé",
+            "planet": 3
+          },
+          {
+            "time": "00:20",
+            "event":"Anakin et Padmé sur Naboo",
+            "planet": 0
+          },
+          {
+            "time": "00:30",
+            "event":"Découverte du complot sur Geonosis",
             "planet": 2
           },
           {
             "time": "00:45",
+            "event":"Bataille de Geonosis",
+            "planet": 3
+          }
+        ]
+      },
+      {
+        "name": "Jango Fett",
+        "color": "rgba(255, 206, 230, 1)",
+        "tension": 0.45,
+        "path": [
+          {
+            "time": "00:10",
+            "event":"Tentative d'assassinat de Padmé",
+            "planet": 3
+          },
+          {
+            "time": "00:20",
+            "event":"Anakin et Padmé sur Naboo",
             "planet": 0
+          },
+          {
+            "time": "00:30",
+            "event":"Découverte du complot sur Geonosis",
+            "planet": 2
+          },
+          {
+            "time": "00:45",
+            "event":"Bataille de Geonosis",
+            "planet": 2
+          }
+        ]
+      },
+      {
+        "name": "Comte Dooku",
+        "color": "rgba(255, 0, 0, 4)",
+        "tension": 0.45,
+        "path": [
+          {
+            "time": "00:10",
+            "event":"Tentative d'assassinat de Padmé",
+            "planet": 2
+          },
+          {
+            "time": "00:20",
+            "event":"Anakin et Padmé sur Naboo",
+            "planet": 2
+          },
+          {
+            "time": "00:30",
+            "event":"Découverte du complot sur Geonosis",
+            "planet": 2
+          },
+          {
+            "time": "00:45",
+            "event":"Bataille de Geonosis",
+            "planet": 3
+          }
+        ]
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "color": "rgba(0, 228, 255, 1)",
+        "tension": 0.2,
+        "path": [
+          {
+            "time": "00:10",
+            "event":"Tentative d'assassinat de Padmé",
+            "planet": 3
+          },
+          {
+            "time": "00:20",
+            "event":"Anakin et Padmé sur Naboo",
+            "planet": 0
+          },
+          {
+            "time": "00:30",
+            "event":"Découverte du complot sur Geonosis",
+            "planet": 2
+          },
+          {
+            "time": "00:45",
+            "event":"Bataille de Geonosis",
+            "planet": 3
           }
         ]
       }

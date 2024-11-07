@@ -6,41 +6,175 @@
     },
     {
       "name": "Dagobah",
-      "image": "hoth.png"
+      "image": "dagobah.png"
     },
     {
-      "name": "Cloud City",
-      "image": "hoth.png"
+      "name": "Bespin",
+      "image": "bespin.png"
+    },
+    {
+      "name": "Tatooine",
+      "image": "tatooine.png"
     }
   ],
   "characters": [
     {
       "name": "Luke Skywalker",
-      "color": "rgba(255, 99, 132, 1)",
-      "image": "luke.png",
+      "color": "rgba(0, 228, 255, 1)",
       "path": [
         {
           "time": "00:10",
+          "event":"Bataille de Hoth",
           "planet": 0
         },
         {
+          "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 1
+        },
+        {
           "time": "00:40",
+          "event":"Capture de Han Solo",
+          "planet": 1
+        },
+        {
+          "time": "00:50",
+          "event":"Duel final de Bespin et fuite des Rebelles",
+          "planet": 2
+        }
+        
+      ]
+    },
+    {
+      "name": "Yoda",
+      "color": "rgba(120, 206, 86, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Bataille de Hoth",
+          "planet": 1
+        },
+        {
+          "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 1
+        },
+        {
+          "time": "00:40",
+          "event":"Capture de Han Solo",
+          "planet": 1
+        },
+        {
+          "time": "00:50",
+          "event":"Duel final de Bespin et fuite des Rebelles",
           "planet": 1
         }
       ]
     },
     {
-      "name": "Darth Vader",
-      "color": "rgba(75, 192, 192, 1)",
-      "image": "luke.png",
+      "name": "Leia Organa",
+      "color": "rgba(255, 255, 255, 1)",
       "path": [
         {
+          "time": "00:10",
+          "event":"Bataille de Hoth",
+          "planet": 0
+        },
+        {
           "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 1
+        },
+        {
+          "time": "00:40",
+          "event":"Capture de Han Solo",
           "planet": 2
         },
         {
           "time": "00:50",
-          "planet": 1
+          "event":"Duel final de Bespin et fuite des Rebelles",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark vador",
+      "tension": 0.55,
+      "color": "rgba(255, 0, 0, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Bataille de Hoth",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 2
+        },
+        {
+          "time": "00:40",
+          "event":"Capture de Han Solo",
+          "planet": 2
+        },
+        {
+          "time": "00:50",
+          "event":"Duel final de Bespin et fuite des Rebelles",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Boba Fett",
+      "tension": 0.4,
+      "color": "rgba(102, 149, 89, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Bataille de Hoth", 
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 2
+        },
+        {
+          "time": "00:40",
+          "event":"Capture de Han Solo",
+          "planet": 2
+        },
+        {
+          "time": "00:50",
+          "event":"Duel final de Bespin et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Han Solo",
+      "color": "rgba(201, 117, 47, 1)",
+      "tension": 0.2,
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Bataille de Hoth",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event":"Entrainement de Luke",
+          "planet": 2
+        },
+        {
+          "time": "00:40",
+          "event":"Capture de Han Solo",
+          "planet": 2
+        },
+        {
+          "time": "00:50",
+          "event":"Duel final de Bespin et fuite des Rebelles",
+          "planet": 3
         }
       ]
     }

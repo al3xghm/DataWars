@@ -1,46 +1,205 @@
 {
   "planets": [
     {
-      "name": "Endor",
-      "image": "hoth.png"
-    },
-    {
-      "name": "Death Star II",
-      "image": "hoth.png"
-    },
-    {
       "name": "Tatooine",
       "image": "tatooine.png"
+    },
+    {
+      "name": "Dagobah",
+      "image": "dagobah.png"
+    },
+    {
+      "name": "Endor",
+      "image": "endor.png"
+    },
+    {
+      "name": "Étoile de la Mort",
+      "image": "tatooine.png"
+    },
+    {
+      "name": "Coruscant",
+      "image": "coruscant.png"
     }
   ],
   "characters": [
     {
       "name": "Luke Skywalker",
-      "color": "rgba(255, 99, 132, 1)",
-      "image": "luke.png",
+      "color": "rgba(0, 228, 255, 1)",
       "path": [
         {
-          "time": "00:05",
+          "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
           "planet": 0
         },
         {
           "time": "00:30",
+          "event":"Mort de Yoda",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 2
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event":"Libération de la galaxie",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Yoda",
+      "color": "rgba(120, 206, 86, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event":"Mort de Yoda",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 1
+        },
+        {
+          "time": "01:50",
+          "event":"Libération de la galaxie",
           "planet": 1
         }
       ]
     },
     {
-      "name": "Han Solo",
-      "color": "rgba(255, 206, 86, 1)",
-      "image": "luke.png",
+      "name": "Leia Organa",
+      "color": "rgba(255, 255, 255, 1)",
       "path": [
         {
           "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event":"Mort de Yoda",
           "planet": 2
         },
         {
-          "time": "00:45",
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 2
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 2
+        },
+        {
+          "time": "01:50",
+          "event":"Libération de la galaxie",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Han Solo",
+      "color": "rgba(201, 117, 47, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
           "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event":"Mort de Yoda",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 2
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 2
+        },
+        {
+          "time": "01:50",
+          "event":"Libération de la galaxie",
+          "planet": 2
+        }
+      ]
+    },
+    {
+      "name": "Dark Vador",
+      "color": "rgba(200, 140, 194, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event":"Mort de Yoda",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 1
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event":"Libération de la galaxie",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Empereur Palpatine",
+      "color": "rgba(255, 0, 0, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event":"Assaut sur le Palais de Jabba",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event":"Mort de Yoda",
+          "planet": 4
+        },
+        {
+          "time": "01:00",
+          "event":"Bataille d'Endor",
+          "planet": 3
+        },
+        {
+          "time": "01:30",
+          "event":"Duel final et mort de l'Empereur",
+          "planet": 3
         }
       ]
     }

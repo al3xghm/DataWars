@@ -64,9 +64,8 @@
   ],
   "characters": [
     {
-      "name": "Anakine Skywalker",
-      "color": "rgba(110, 40, 104, 1)",
-      "image": "luke.png",
+      "name": "Anakin Skywalker",
+      "color": "rgba(200, 140, 194, 1)",
       "tension": 0.4,
       "path": [
         {
@@ -86,15 +85,14 @@
         },
         {
           "time": "00:55",
-          "event": "Exile sur Tatooine",
+          "event": "Exile des Jedi",
           "planet": 3
         }
       ]
     },
     {
-      "name": "Obi One Kenobi",
+      "name": "Obi-Wan Kenobi",
       "color": "rgba(63, 211, 234, 1)",
-      "image": "luke.png",
       "path": [
         {
           "time": "00:05",
@@ -113,7 +111,7 @@
         },
         {
           "time": "00:55",
-          "event": "Exile sur Tatooine",
+          "event": "Exile des Jedi",
           "planet": 4
         }
       ]
@@ -121,7 +119,6 @@
     {
       "name": "Yoda",
       "color": "rgba(120, 206, 86, 1)",
-      "image": "luke.png",
       "path": [
         {
           "time": "00:05",
@@ -140,15 +137,14 @@
         },
         {
           "time": "00:55",
-          "event": "Exile sur Tatooine",
+          "event": "Exile des Jedi",
           "planet": 0
         }
       ]
     },
     {
       "name": "Palpatine",
-      "color": "rgba(180, 40, 104, 1)",
-      "image": "luke.png",
+      "color": "rgba(255, 0, 0, 1)",
       "tension": 0.2,
       "path": [
         {
@@ -168,16 +164,15 @@
         },
         {
           "time": "00:55",
-          "event": "Exile sur Tatooine",
+          "event": "Exile des Jedi",
           "planet": 3
         }
       ]
     },
     {
-      "name": "Grievous",
+      "name": "Général Grievous",
       "color": "rgba(223, 223, 101, 1)",
       "tension": 0.1,
-      "image": "luke.png",
       "path": [
         {
           "time": "00:05",

@@ -46,15 +46,20 @@ document.addEventListener("DOMContentLoaded", function () {
         'Le Retour du Jedi', // Episode VI
         'La Menace fantôme', // Episode VII
         'Les Derniers Jedi', // Episode VIII
-        'L’Ascension de Skywalker' // Episode IX
+        'L’Ascension de Skywalker', // Episode IX
+        'Rogue One', // Spinoff
+        'Solo, a Star Wars story' // Spinoff
     ];
 
-    // Fonction pour mettre à jour le titre et gérer les clics sur les boutons
     function handleEpisodeChange(episode) {
-        titleElement.textContent = `Episode ${episode} : ${episodeTitles[episode - 1]}`;
-        // Ajoutez ici la logique pour changer le graphique selon l'épisode
+        if (episode == 10) { // Cas spécial pour "Rogue One"
+            titleElement.textContent = `Spinoff : ${episodeTitles[9]}`; // Affiche "Spinoff : Rogue One"
+        } else if (episode == 11) { // Cas spécial pour "Solo, a Star Wars story"
+            titleElement.textContent = `Spinoff : ${episodeTitles[10]}`; // Affiche "Spinoff : Solo: A Star Wars Story"
+        } else {
+            titleElement.textContent = `Episode ${episode} : ${episodeTitles[episode - 1]}`;
+        }
     }
-
     // Initialisation par défaut
     handleEpisodeChange(4); // Définit le titre par défaut à l'épisode IV
 
@@ -315,6 +320,8 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById('episode7').addEventListener('click', () => loadEpisodeData(7));
     document.getElementById('episode8').addEventListener('click', () => loadEpisodeData(8));
     document.getElementById('episode9').addEventListener('click', () => loadEpisodeData(9));
+    document.getElementById('episode10').addEventListener('click', () => loadEpisodeData(10));
+    document.getElementById('episode11').addEventListener('click', () => loadEpisodeData(11));
 
     // Initialisation pour l'épisode IV par défaut
     loadEpisodeData(4);

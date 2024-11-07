@@ -1,12 +1,12 @@
 {
     "planets": [
       {
-        "name": "Endor",
-        "image": "hoth.png"
+        "name": "Naboo",
+        "image": "naboo.png"
       },
       {
-        "name": "Death Star II",
-        "image": "hoth.png"
+        "name": "Coruscant",
+        "image": "coruscant.png"
       },
       {
         "name": "Tatooine",
@@ -15,31 +15,123 @@
     ],
     "characters": [
       {
-        "name": "Luke Skywalker",
-        "color": "rgba(255, 99, 132, 1)",
-        "image": "luke.png",
+        "name": "Anakin Skywalker",
+        "color": "rgba(255, 224, 0, 1)",
         "path": [
           {
-            "time": "00:05",
+            "time": "00:00",
+            "event":"Négociation en orbite de Naboo",
+            "planet": 2
+          },
+          {
+            "time": "00:35",
+            "event":"Libération de Anakine",
+            "planet": 2
+          },
+          {
+            "time": "00:50",
+            "event":"Bataille de libération de Naboo",
             "planet": 0
           },
           {
-            "time": "00:30",
+            "time": "01:00",
+            "event":"Début de la guerre contre la Fédération du commerce",
             "planet": 1
           }
         ]
       },
       {
-        "name": "Han Solo",
-        "color": "rgba(255, 206, 86, 1)",
-        "image": "luke.png",
+        "name": "Obi-Wan Kenobi",
+        "color": "rgba(0, 228, 255, 1)",
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
+            "event":"Négociation en orbite de Naboo",
+            "planet": 0
+          },
+          {
+            "time": "00:35",
+            "event":"Libération de Anakine",
             "planet": 2
           },
           {
-            "time": "00:45",
+            "time": "00:50",
+            "event":"Bataille de libération de Naboo",
+            "planet": 0
+          },
+          {
+            "time": "01:00",
+            "event":"Début de la guerre contre la Fédération du commerce",
+            "planet": 1
+          }
+        ]
+      },
+      {
+        "name": "Qui-gon Jinn",
+        "tension": 0.5,
+        "color": "rgba(0, 255, 102, 1)",
+        "path": [
+          {
+            "time": "00:00",
+            "event":"Négociation en orbite de Naboo",
+            "planet": 0
+          },
+          {
+            "time": "00:35",
+            "event":"Libération de Anakine",
+            "planet": 2
+          },
+          {
+            "time": "00:50",
+            "event":"Bataille de libération de Naboo",
+            "planet": 0
+          }
+        ]
+      },
+      {
+        "name": "Padme Amidala",
+        "color": "rgba(255, 255, 255, 1)",
+        "path": [
+          {
+            "time": "00:00",
+            "event":"Négociation en orbite de Naboo",
+            "planet": 0
+          },
+          {
+            "time": "00:35",
+            "event":"Libération de Anakine",
+            "planet": 2
+          },
+          {
+            "time": "00:50",
+            "event":"Bataille de libération de Naboo",
+            "planet": 1
+          },
+          {
+            "time": "01:00",
+            "event":"Début de la guerre contre la Fédération du commerce",
+            "planet": 0
+          }
+        ]
+      },
+      {
+        "name": "Dark Maul",
+        "color": "rgba(255, 0, 0, 1)",
+        "tension": 0.5,
+        "path": [
+          {
+            "time": "00:00",
+            "event":"Négociation en orbite de Naboo",
+            "planet": 1
+          },
+          {
+            "time": "00:35",
+            "event":"Libération de Anakine",
+            "planet": 2
+          },
+          {
+            "time": "00:50",
+            "event":"Bataille de libération de Naboo",
             "planet": 0
           }
         ]

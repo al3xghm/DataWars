@@ -1,0 +1,232 @@
+{
+  "planets": [
+    {
+      "name": "Lah'mu",
+      "image": "lahmu.png"
+    },
+    {
+      "name": "Jedha",
+      "image": "jedha.png"
+    },
+    {
+      "name": "Eadu",
+      "image": "eadu.png"
+    },
+    {
+      "name": "Scarif",
+      "image": "scarif.png"
+    },
+    {
+      "name": "Yavin IV",
+      "image": "yavin4.png"
+    },
+    {
+      "name": "Étoile Noire",
+      "image": "deathstar.png"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Jyn Erso",
+      "color": "rgba(135, 195, 207, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 2
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Cassian Andor",
+      "color": "rgba(205, 205, 205, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 2
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Chirrut Îmwe",
+      "color": "rgba(255, 232, 0, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 1
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 1
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 2
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Saw Gerrera",
+      "color": "rgba(255, 143, 0, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 1
+        }
+      ]
+    },
+    {
+      "name": "Orson Krennic",
+      "color": "rgba(255, 193, 188, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 0
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 5
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 2
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Leia organa",
+      "color": "rgba(255, 255, 255, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 4
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 4
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 4
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    },
+    {
+      "name": "Dark Vador",
+      "color": "rgba(255, 0, 0, 1)",
+      "path": [
+        {
+          "time": "00:00",
+          "event": "Enlevement de Galen Erso",
+          "planet": 5
+        },
+        {
+          "time": "00:30",
+          "event": "Destruction de Jedha",
+          "planet": 5
+        },
+        {
+          "time": "01:00",
+          "event": "Execution de Galen Erso",
+          "planet": 5
+        },
+        {
+          "time": "01:20",
+          "event": "Vol des plans de l'Étoile Noire",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Bataille de Scarif et fuite des Rebelles",
+          "planet": 3
+        }
+      ]
+    }
+  ]
+}

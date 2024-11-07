@@ -1,0 +1,181 @@
+{
+  "planets": [
+    {
+      "name": "Corellia",
+      "image": "corellia.png"
+    },
+    {
+      "name": "Mimban",
+      "image": "mimban.png"
+    },
+    {
+      "name": "Vandor-1",
+      "image": "eadu.png"
+    },
+    {
+      "name": "Kessel",
+      "image": "kessel.png"
+    },
+    {
+      "name": "Savareen",
+      "image": "savareen.png"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Han Solo",
+      "color": "rgba(201, 117, 47, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event": "Fuite de Corellia",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Guerre pour l'Empire sur Mimban",
+          "planet": 1
+        },
+        {
+          "time": "00:40",
+          "event": "Casse de Vendor",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event": "Kessel Run",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Trahison sur Savareen",
+          "planet": 4
+        }
+      ]
+    },
+    {
+      "name": "Qi'ra",
+      "color": "rgba(255, 54, 0, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event": "Fuite de Corellia",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Guerre pour l'Empire sur Mimban",
+          "planet": 2
+        },
+        {
+          "time": "00:40",
+          "event": "Casse de Vendor",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event": "Kessel Run",
+          "planet": 4
+        },
+        {
+          "time": "01:50",
+          "event": "Trahison sur Savareen",
+          "planet": 4
+        }
+      ]
+    },
+    {
+      "name": "Chewbacca",
+      "color": "rgba(223, 204, 173, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event": "Fuite de Corellia",
+          "planet": 0
+        },
+        {
+          "time": "00:20",
+          "event": "Guerre pour l'Empire sur Mimban",
+          "planet": 1
+        },
+        {
+          "time": "00:40",
+          "event": "Casse de Vendor",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event": "Kessel Run",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Trahison sur Savareen",
+          "planet": 4
+        }
+      ]
+    },
+    {
+      "name": "Tobias Beckett",
+      "color": "rgba(218, 179, 218, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event": "Fuite de Corellia",
+          "planet": 1
+        },
+        {
+          "time": "00:20",
+          "event": "Guerre pour l'Empire sur Mimban",
+          "planet": 1
+        },
+        {
+          "time": "00:40",
+          "event": "Casse de Vendor",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event": "Kessel Run",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Trahison sur Savareen",
+          "planet": 4
+        }
+      ]
+    },
+    {
+      "name": "Lando Calrissian",
+      "color": "rgba(236, 255, 0, 1)",
+      "path": [
+        {
+          "time": "00:10",
+          "event": "Fuite de Corellia",
+          "planet": 2
+        },
+        {
+          "time": "00:20",
+          "event": "Guerre pour l'Empire sur Mimban",
+          "planet": 2
+        },
+        {
+          "time": "00:40",
+          "event": "Casse de Vendor",
+          "planet": 2
+        },
+        {
+          "time": "01:00",
+          "event": "Kessel Run",
+          "planet": 3
+        },
+        {
+          "time": "01:50",
+          "event": "Trahison sur Savareen",
+          "planet": 4
+        }
+      ]
+    }
+  ]
+}
