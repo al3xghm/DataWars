@@ -2,23 +2,63 @@
   "planets": [
     {
       "name": "Corellia",
-      "image": "corellia.png"
+      "image": "corellia.png",
+      "location": "Mondes du Noyau",
+      "type": "Industrielle ",
+      "population": "7 458 351",
+      "climate": "Tempéré",
+      "landscape": "Forêts, Jungles, Océans, Villes",
+      "notable_places": ["Chantiers navals Corelliens, Coronet City, Kor Vella"],
+      "affiliation": ["Ancienne République, Empire Galactique, Gouvernement de Corellia"],
+      "description": "Corellia est une planète industrielle majeure de l'univers de *Star Wars*, située dans le Noyau, et est célèbre pour ses chantiers navals qui produisent certains des vaisseaux les plus rapides de la galaxie, comme les croiseurs impériaux et le légendaire *Millennium Falcon*. Avec ses grandes villes portuaires et ses infrastructures industrielles, Corellia est un centre de construction spatiale et de contrebande. La planète est également le lieu de naissance de Han Solo, qui y a grandi en tant qu'orphelin dans les bas-fonds urbains avant de s'engager dans la contrebande pour échapper à la pauvreté et aux gangs locaux, comme le syndicat des Vers Blancs."
     },
     {
       "name": "Mimban",
-      "image": "mimban.png"
+      "image": "mimban.png",
+      "location": "Zone d'Expansion",
+      "type": "Tellurique",
+      "population": "Variable",
+      "climate": "Humide",
+      "landscape": "Marécages, Forêts tropicales",
+      "notable_places": ["Marais du sud, Station 3-7, Steppes de Nanth, Zone désolée disputée, Camp Forward"],
+      "affiliation": ["Empire Galactique"],
+      "description": "Mimban est une planète marécageuse et boueuse dans l’univers de Star Wars, introduite dans le film *Solo: A Star Wars Story*. Située dans le Secteur Expansion, elle est couverte de jungles denses, de marais sombres et de brumes épaisses, rendant ses paysages inhospitaliers et difficiles à traverser. Mimban est exploitée pour ses ressources naturelles, comme le minerai de cristal, que l'Empire extrait à des fins militaires. La planète est aussi connue pour être le théâtre de violents combats entre l'Empire et les insurgés locaux, une guerre où Han Solo sert comme soldat impérial avant de déserter."
     },
     {
       "name": "Vandor-1",
-      "image": "eadu.png"
+      "image": "eadu.png",
+      "location": "Bordure Médiane",
+      "type": "Glaciale",
+      "population": "150 000",
+      "climate": "Froid",
+      "landscape": "Montagnes, Plaines",
+      "notable_places": [" Monts Iridium, Dépôt Impérial Crispin, Fort Ypso, Mont Redolava, Mont Vastadon, Passe Corubalni, Piste Spinnaker"],
+      "affiliation": ["Empire Galactique"],
+      "description": "Vandor-1 est une planète glacée et montagneuse de l’univers de *Star Wars*, introduite dans Solo: A Star Wars Story. Située dans la Bordure Extérieure, elle est caractérisée par ses pics enneigés et son climat rigoureux. La planète abrite des infrastructures ferroviaires appartenant à l'Empire, notamment le train blindé Conveyex, qui transporte des cargaisons précieuses, telles que le coaxium. Vandor-1 est surtout connue pour la spectaculaire tentative de braquage de ce train par Han Solo et Tobias Beckett, qui affrontent les dangers des hauteurs glaciales tout en évitant les maraudeurs et les forces impériales."
     },
     {
       "name": "Kessel",
-      "image": "kessel.png"
+      "image": "kessel.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Tellurique",
+      "population": "300 000",
+      "climate": "Chaud",
+      "landscape": "Mines d'épice",
+      "notable_places": ["Mines d'épice de Kessel, Mine d'épice K76"],
+      "affiliation": ["Famille royale de Kessel, Empire Galactique, Syndicat pyke"],
+      "description": "Dans l'univers de Star Wars, Kessel est une planète minière mythique, située dans une zone instable de la Bordure Extérieure, près du Maelström d'Akkadèse. Ses mines d'épices, dont la précieuse épice purement , sont exploitées de manière brutale par l'Empire et le syndicat Pyke, qui emploient des prisonniers comme main-d'œuvre. Les conditions extrêmes des mines de Kessel sont connues, l'évasion étant presque impossible. C'est également la terre natale de la Kessel Run, une route de contrebande renommée que Han Solo a parcourue en un temps record avec le Millennium Falcon dans Solo: A Star Wars Story. "
     },
     {
       "name": "Savareen",
-      "image": "savareen.png"
+      "image": "savareen.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique ",
+      "population": "100 000",
+      "climate": "Aride",
+      "landscape": "Déserts, Océans",
+      "notable_places": ["Côte Pnakotique, Croc de l'âme, Raffinerie Bis, Village de la Côte Pnakotique, Mer d'Émeraude"],
+      "affiliation": ["Neutre"],
+      "description": "Savareen est une planète isolée dans l’univers de *Star Wars*, située dans la Bordure Extérieure. Connue pour ses paysages désertiques et ses côtes salées, elle abrite de modestes colonies humaines qui subsistent grâce à l'extraction de sel marin. Savareen est devenue célèbre comme lieu de la bataille finale dans Solo: A Star Wars Story, où Han Solo et ses compagnons affrontent les maraudeurs de l'Aube Écarlate. La planète symbolise la liberté et la résistance face aux puissances oppressives qui dominent la galaxie."
     }
   ],
   "characters": [

@@ -2,27 +2,75 @@
   "planets": [
     {
       "name": "Lah'mu",
-      "image": "lahmu.png"
+      "image": "lahmu.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Tellurique",
+      "population": " Non recensée, estimée à moins de 500",
+      "climate": "Montagneux",
+      "landscape": "Plateaux, Pics montagneux, Plaines fertiles, Mers salines, Plages de sable noir, Geysers, Zones volcaniques",
+      "notable_places": ["Ferme des Erso, Forteresse non-identifiée"],
+      "affiliation": ["Neutre"],
+      "description": "Lah'mu est une planète aride de l'univers de *Star Wars*, principalement connue pour ses vastes étendues de sable gris, ses montagnes rocheuses et son atmosphère sombre. Située en bordure extérieure, elle abrite peu de vie en raison de son climat inhospitalier. La planète est surtout célèbre pour être le lieu où Galen Erso, un scientifique clé dans la construction de l'Étoile de la Mort, s'était réfugié avec sa famille avant d'être retrouvé par l’Empire dans Rogue One: A Star Wars Story."
     },
     {
       "name": "Jedha",
-      "image": "jedha.png"
+      "image": "jedha.png",
+      "location": "Bordure Médiane",
+      "type": "Tellurique",
+      "population": " 11 300 000",
+      "climate": "Froid",
+      "landscape": "Déserts, Mesas naturelles",
+      "notable_places": ["Catacombes de Cadera, Hauts plateaux desséchés, Mines de kyber de Jedha, Ville sainte, Temple des WhillsCatacombes de Cadera, Hauts plateaux desséchés, Mines de kyber de Jedha, Ville sainte, Temple des Whills"],
+      "affiliation": ["Neutre"],
+      "description": "Jedha est une planète montagneuse et désertique située dans le système de Tilo, connue pour sa profonde connexion spirituelle avec la Force. C'est le berceau d'un ancien temple Jedi, vénéré par les adeptes de la Force, qui attire de nombreux pèlerins. Jadis riche en Kyber, un cristal puissant utilisé dans les sabres laser, la planète est envahie par l'Empire, qui exploite ses ressources. Jedha est tristement célèbre pour la destruction de sa ville principale lors de l'attaque de l'Étoile de la Mort dans Rogue One."
     },
     {
       "name": "Eadu",
-      "image": "eadu.png"
+      "image": "eadu.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Tellurique",
+      "population": " 2 500 000",
+      "climate": "Orageux",
+      "landscape": "Rocheux",
+      "notable_places": ["Raffinerie Impériale de cristaux kyber, Dépôt de navette d'Eadu"],
+      "affiliation": ["Empire Galactique, Renseignement Impérial, Division de Recherche en Armement Avancé, Initiative Tarkin"],
+      "description": "Eadu est une planète située dans le système du même nom, recouverte de montagnes escarpées et de vastes mers orageuses. Elle est connue pour son climat tumultueux et son environnement hostile, avec des nuages permanents et des précipitations fréquentes. Eadu abrite une installation de recherche impériale secrète, où des scientifiques travaillent sur des projets expérimentaux pour l'Empire. La planète est marquée par un incident tragique dans Rogue One, lorsqu'une mission de la Rébellion visait à détruire cette installation."
     },
     {
       "name": "Scarif",
-      "image": "scarif.png"
+      "image": "scarif.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Tropical",
+      "population": " 475 000",
+      "climate": "Tropical",
+      "landscape": "Océans, Chaînes d'îles, Archipels rocheux",
+      "notable_places": ["Aurek-14, Camp d'entraînement avancé pour Death Troopers, Complexe de sécurité Impérial, Tour de la Citadelle"],
+      "affiliation": ["Empire Galactique"],
+      "description": "Scarif est une planète océanique située dans le système de la même nom, au cœur de l'Empire galactique. Sa surface est recouverte de vastes mers, parsemées de petites îles tropicales. Scarif est surtout célèbre pour abriter le centre de recherches impérial, où les plans de l'Étoile de la Mort étaient conservés. La bataille de Scarif, qui marqua un tournant décisif dans la guerre civile galactique, s'y déroula, offrant un dernier acte héroïque avant la destruction de la station."
     },
     {
       "name": "Yavin IV",
-      "image": "yavin4.png"
+      "image": "yavin4.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Lune",
+      "population": "Inhabitée",
+      "climate": "Tempéré",
+      "landscape": "Forêts, temples, jungles",
+      "notable_places": ["Colonnie de Yavin 4, Grand temple Massassis, Starloft, Wetyin"],
+      "affiliation": ["Alliance Rebelle"],
+      "description": "Yavin IV est une lune située dans la Bordure Extérieure. Elle abrite les ruines du Temple Massassi, un ancien sanctuaire Jedi. La Base Rebelle est un avant-poste secret de l'Alliance Rebelle, dissimulé au cœur de la jungle. C'est sur Yavin IV que les Rebelles ont planifié et lancé leur attaque contre l'Étoile Noire."
     },
     {
       "name": "Étoile Noire",
-      "image": "deathstar.png"
+      "image": "deathstar.png",
+      "location": "Orbite de Endor, variable",
+      "type": "Station spatiale",
+      "population": "1 206 293",
+      "climate": "Artificiel",
+      "landscape": "Urbain",
+      "notable_places": ["Salle du Trône", "Salle de Contrôle"],
+      "affiliation": ["Empire Galactique"],
+      "description": "L'Étoile Noire est une station spatiale de l'Empire Galactique. Elle est équipée d'un superlaser capable de détruire des planètes entières. La station abrite des milliers de soldats impériaux et des installations de contrôle sophistiquées. La Salle du Trône est le quartier général de l'Empereur Palpatine, tandis que la Salle de Contrôle est le centre névralgique de l'Étoile Noire."
     }
   ],
   "characters": [
