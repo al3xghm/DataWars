@@ -2,19 +2,51 @@
   "planets": [
     {
       "name": "Hoth",
-      "image": "hoth.png"
+      "image": "hoth.png",
+      "location": "Bordure extérieure",
+      "type": "Planète glacée",
+      "population": "7 200",
+      "climate": "Froid",
+      "landscape": "Glaciers, Plaines",
+      "notable_places": ["Base Rebelle Echo"],
+      "affiliation": ["Alliance rebelle"],
+      "description": "Hoth est une planète glacée de la Bordure Extérieure, connue pour son climat rigoureux et ses paysages gelés. Recouverte de neige et de glace, elle est marquée par des tempêtes de blizzard et des températures glaciales, rendant la vie presque impossible. Hoth abrite la base Echo de la Rébellion, un complexe souterrain stratégique qui sert de refuge temporaire pour les rebelles. La tranquillité de Hoth est brisée lorsque l'Empire découvre la base et lance une attaque massive. Les combats entre les forces rebelles et l'Empire, avec des véhicules emblématiques comme les AT-AT et les snowspeeders, deviennent emblématiques. Hoth symbolise la lutte pour la survie et la résilience de la Rébellion face à l'oppression galactique, faisant de ce monde gelé un lieu mémorable dans l'univers de Star Wars."
     },
     {
       "name": "Dagobah",
-      "image": "dagobah.png"
+      "image": "dagobah.png",
+      "location": "Bordure extérieure",
+      "type": "Planète tellurique",
+      "population": "1",
+      "climate": "Humide",
+      "landscape": "Marécages",
+      "notable_places": ["Hutte de Yoda", "Grotte du mal"],
+      "affiliation": ["Confédération des systèmes indépendants", "Alliance Rebelle", "Nouvelle République", "Ordre Jedi"],
+      "description": "Dagobah est une planète marécageuse et mystérieuse des Régions Inconnues, connue pour ses paysages luxuriants, ses marais boueux et sa végétation dense. Enveloppée d'une atmosphère brumeuse, elle abrite une faune diversifiée, y compris des créatures étranges. Célèbre comme le refuge de maître Yoda après la chute de l'Ordre Jedi, Dagobah est où Luke Skywalker trouve Yoda pour son entraînement. Les visions mystiques de Luke révèlent ses luttes intérieures, faisant de cette planète un lieu d'épreuve spirituelle. Dotée d'une forte connexion à la Force, Dagobah symbolise la quête de connaissance et de sagesse dans l'univers de Star Wars."
     },
     {
       "name": "Bespin",
-      "image": "bespin.png"
+      "image": "bespin.png",
+      "location": "Bordure extérieure",
+      "type": "Géante Gazeuse",
+      "population": "6 000 000",
+      "climate": "Aucune données",
+      "landscape": "Nuages de Gaz",
+      "notable_places": ["Cité des nuages", "Station Chinook", "Ugnorgrad"],
+      "affiliation": ["Empire Galactique", "Nouvelle République"],
+      "description": "Bespin, une planète géante gazeuse dans les Territoires de la Bordure Extérieure, est célèbre pour ses nuages dorés et roses flottant à des altitudes vertigineuses. Connue pour ses gisements de gaz tibanna, précieuse ressource énergétique, Bespin abrite des villes suspendues dans l'atmosphère, dont la célèbre Cité des Nuages. Dirigée par Lando Calrissian, cette métropole flottante combine élégance et activité industrielle, attirant mineurs, commerçants et élites. Bien que isolée, la Cité des Nuages est un lieu stratégique, souvent au cœur de conflits galactiques, oscillant entre tranquillité aérienne et tensions politiques."
     },
     {
       "name": "Tatooine",
-      "image": "tatooine.png"
+      "image": "tatooine.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "200 000",
+      "climate": "Aride",
+      "landscape": "Désert, canyons, oasis",
+      "notable_places": ["Mos Eisley", "Ferme des Lars", "Palais de Jabba le Hutt"],
+      "affiliation": ["Hutt", "Empire Galactique"],
+      "description": "Tatooine est une planète désertique située dans la Bordure Extérieure. Ses paysages arides sont dominés par des dunes de sable et des canyons rocheux. Mos Eisley est une ville portuaire notoire pour sa criminalité et son marché noir. La Ferme des Lars est le lieu de résidence de Luke Skywalker, tandis que le Palais de Jabba le Hutt est le repaire du célèbre seigneur du crime. Tatooine est le théâtre de nombreux événements clés de la saga Star Wars, notamment la rencontre entre Luke Skywalker et Obi-Wan Kenobi, ainsi que la libération de Han Solo."
     }
   ],
   "characters": [

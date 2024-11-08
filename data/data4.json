@@ -15,9 +15,9 @@
     {
       "name": "Étoile Noire",
       "image": "deathstar.png",
-      "location": "Espace",
+      "location": "Orbite de Endor, variable",
       "type": "Station spatiale",
-      "population": "1,7 millions",
+      "population": "1 206 293",
       "climate": "Artificiel",
       "landscape": "Urbain",
       "notable_places": ["Salle du Trône", "Salle de Contrôle"],
@@ -31,8 +31,8 @@
       "type": "Lune",
       "population": "Inhabitée",
       "climate": "Tempéré",
-      "landscape": "Forêts, temples",
-      "notable_places": ["Temple Massassi", "Base Rebelle"],
+      "landscape": "Forêts, temples, jungles",
+      "notable_places": ["Colonnie de Yavin 4, Grand temple Massassis, Starloft, Wetyin"],
       "affiliation": ["Alliance Rebelle"],
       "description": "Yavin IV est une lune située dans la Bordure Extérieure. Elle abrite les ruines du Temple Massassi, un ancien sanctuaire Jedi. La Base Rebelle est un avant-poste secret de l'Alliance Rebelle, dissimulé au cœur de la jungle. C'est sur Yavin IV que les Rebelles ont planifié et lancé leur attaque contre l'Étoile Noire."
     }

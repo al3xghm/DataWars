@@ -2,23 +2,63 @@
   "planets": [
     {
       "name": "Tatooine",
-      "image": "tatooine.png"
+      "image": "tatooine.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "200 000",
+      "climate": "Aride",
+      "landscape": "Désert, canyons, oasis",
+      "notable_places": ["Mos Eisley", "Ferme des Lars", "Palais de Jabba le Hutt"],
+      "affiliation": ["Hutt", "Empire Galactique"],
+      "description": "Tatooine est une planète désertique située dans la Bordure Extérieure. Ses paysages arides sont dominés par des dunes de sable et des canyons rocheux. Mos Eisley est une ville portuaire notoire pour sa criminalité et son marché noir. La Ferme des Lars est le lieu de résidence de Luke Skywalker, tandis que le Palais de Jabba le Hutt est le repaire du célèbre seigneur du crime. Tatooine est le théâtre de nombreux événements clés de la saga Star Wars, notamment la rencontre entre Luke Skywalker et Obi-Wan Kenobi, ainsi que la libération de Han Solo."
     },
     {
       "name": "Dagobah",
-      "image": "dagobah.png"
+      "image": "dagobah.png",
+      "location": "Bordure extérieure",
+      "type": "Planète tellurique",
+      "population": "1",
+      "climate": "Humide",
+      "landscape": "Marécages",
+      "notable_places": ["Hutte de Yoda", "Grotte du mal"],
+      "affiliation": ["Confédération des systèmes indépendants", "Alliance Rebelle", "Nouvelle République", "Ordre Jedi"],
+      "description": "Dagobah est une planète marécageuse et mystérieuse des Régions Inconnues, connue pour ses paysages luxuriants, ses marais boueux et sa végétation dense. Enveloppée d'une atmosphère brumeuse, elle abrite une faune diversifiée, y compris des créatures étranges. Célèbre comme le refuge de maître Yoda après la chute de l'Ordre Jedi, Dagobah est où Luke Skywalker trouve Yoda pour son entraînement. Les visions mystiques de Luke révèlent ses luttes intérieures, faisant de cette planète un lieu d'épreuve spirituelle. Dotée d'une forte connexion à la Force, Dagobah symbolise la quête de connaissance et de sagesse dans l'univers de Star Wars."
     },
     {
       "name": "Endor",
-      "image": "endor.png"
+      "image": "endor.png",
+      "location": "Bordure extérieure",
+      "type": "Géante gazeuse",
+      "population": "30 000 000",
+      "climate": "Humide",
+      "landscape": "Forêt",
+      "notable_places": ["Village Ewok"],
+      "affiliation": ["Empire Galactique"],
+      "description": "Située dans le système d'Endor, Endor est une l'une riche et forêtée, réputée pour ses forêts abondantes et ses imposants arbres imposants. On la reconnaît comme le lieu de l'affrontement crucial entre la Rébellion et l'Empire, au cours duquel les troupes rebelles détruisent la seconde Étoile de la Mort.Endor, où vivent les Ewoks, de petites créatures qui ressemblent aux ours, est un véritable havre de biodiversité. Les Ewoks mènent une vie harmonieuse avec le milieu naturel, bâtis dans les bois et exerçant une chasse qui préserve la nature. Leur intelligence et leur détermination sont essentielles pour la réussite de la Rébellion. Endor symbolise l'espoir et la résistance face à l'oppression, se transformant en un emblème de liberté suite à une victoire. Son histoire et sa splendeur naturelle en font un endroit unique."
     },
     {
       "name": "Étoile de la Mort",
-      "image": "tatooine.png"
+      "image": "deathstar2.png",
+      "location": "Orbite de Endor, variable",
+      "type": "Station spatiale",
+      "population": "1 206 293",
+      "climate": "Artificiel",
+      "landscape": "Urbain",
+      "notable_places": ["Salle du Trône", "Salle de Contrôle"],
+      "affiliation": ["Empire Galactique"],
+      "description": "L'Étoile Noire est une station spatiale de l'Empire Galactique. Elle est équipée d'un superlaser capable de détruire des planètes entières. La station abrite des milliers de soldats impériaux et des installations de contrôle sophistiquées. La Salle du Trône est le quartier général de l'Empereur Palpatine, tandis que la Salle de Contrôle est le centre névralgique de l'Étoile Noire."
     },
     {
       "name": "Coruscant",
-      "image": "coruscant.png"
+      "image": "coruscant.png",
+      "location": "Mondes du Noyau",
+      "type": "Œcuménopole",
+      "population": "998 374 milliards",
+      "climate": "Artificiel, tempéré",
+      "landscape": "Urbain",
+      "notable_places": ["Sénat Galactique", "Temple Jedi"],
+      "affiliation": ["Ordre Jedi", "République Galactique", "Empire Galactique"],
+      "description": "Coruscant est une planète entièrement urbanisée et située au centre de la galaxie. Capitale politique, elle symbolise l'apogée de la civilisation galactique. Le Temple Jedi et le Sénat Galactique sont deux de ses lieux emblématiques. Toutefois, sous les gratte-ciel scintillants, les niveaux inférieurs abritent criminalité et pauvreté, créant un contraste marqué avec les quartiers riches."
     }
   ],
   "characters": [

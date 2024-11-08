@@ -2,24 +2,64 @@
   "planets": [
     {
       "name": "Jakku",
-      "image": "jakku.png"
+      "image": "jakku.png",
+      "location": "Bordure Intérieure",
+      "type": "Tellurique",
+      "population": "25 000",
+      "climate": "Désertique, Froid",
+      "landscape": "Plaine de sable",
+      "notable_places": ["Quartier général de la Résistance"],
+      "affiliation": ["Avant-poste de Niima", "Craterville", "Reestkii, Tuanul (Un des Villages Sacrés)"],
+      "description": "Jakku est une planète aride et désertique de la Bordure Extérieure, connue pour ses vastes dunes de sable et son climat impitoyable. Ancien champ de bataille où l'Empire a été vaincu par la Nouvelle République, elle est parsemée d'épaves de vaisseaux, attirant des ferrailleurs locaux. Les habitants vivent dans la pauvreté, troquant des morceaux de métal pour de maigres rations. Rey, une jeune ferrailleuse orpheline, grandit dans ces conditions difficiles. Jakku, symbole d'un monde oublié, devient le point de départ de son aventure, influençant l'équilibre de la galaxie."
     },
     {
       "name": "D’Qar",
-      "image": "dqar.png"
+      "image": "dqar.png",
+      "location": "Bordure Extérieure",
+      "type": "Tellurique",
+      "population": "Variable",
+      "climate": "Tempéré",
+      "landscape": "Jungle",
+      "notable_places": ["Quartier général de la Résistance"],
+      "affiliation": ["Alliance Rebelle, Résistance"],
+      "description": "D'Qar est une planète paisible et verdoyante de la Bordure Extérieure, utilisée comme base secrète par la Résistance contre le Premier Ordre. Recouverte de forêts denses et de plaines luxuriantes, elle abrite des hangars souterrains et des pistes d'atterrissage rudimentaires, d'où Leia Organa et ses alliés planifient des missions cruciales, notamment l'attaque contre la Base Starkiller. La tranquillité de D'Qar est rompue lorsque le Premier Ordre découvre sa localisation, forçant l'évacuation. Malgré cela, D'Qar demeure un symbole de détermination et d'espoir pour la Résistance."
     },
     {
       "name": "Ahch-To",
-      "image": "ahchto.png"
+      "image": "ahchto.png",
+      "location": "Régions inconnues",
+      "type": "Tellurique",
+      "population": "Aucune données",
+      "climate": "Tempéré",
+      "landscape": "Océans, îles",
+      "notable_places": ["Premier temple Jedi", "Village du nouvel ordre Jedi"],
+      "affiliation": ["Ordre Jedi"],
+      "description": "Ahch-To est une planète isolée et océanique des Régions Inconnues, célèbre pour abriter les ruines de la première académie Jedi. Composée de vastes étendues d'eau et de petites îles rocheuses, elle est le lieu où Luke Skywalker choisit de s'exiler après la chute de son nouvel Ordre Jedi. Peuplée par les Caretakers et les Porgs, ses paysages présentent des côtes déchiquetées et des grottes cachées, créant une atmosphère de mysticisme. C'est ici que Rey retrouve Luke pour commencer son entraînement, dans l'espoir de restaurer l'équilibre face au Premier Ordre. Ahch-To incarne les racines de l'héritage Jedi, un lieu de contemplation et de rédemption."
     },
     {
       "name": "Star Killer",
-      "image": "starkiller.png"
+      "image": "starkiller.png",
+      "location": "Régions Inconnues",
+      "type": ["Tellurique", " Station Spaciale Militaire"],
+      "population": "Environ 3 829 006",
+      "climate": "Froid",
+      "landscape": "Plaine de neige, Montagnes, Forêts",
+      "notable_places": ["Château de Maz Kanata", "Lac Nymeve"],
+      "affiliation": ["Premier Ordre"],
+      "description": "Ilum, autrefois une planète glacée et sacrée pour les Jedi, est connue pour ses vastes champs de neige et ses canyons gelés. Située dans la Bordure Extérieure, elle abritait des cristaux Kyber essentiels à la construction des sabres laser, faisant d'elle un lieu de pèlerinage pour les Padawans. Après la chute de l'Ordre Jedi, l'Empire exploita la planète, qui fut ensuite transformée par le Premier Ordre en Base Starkiller, capable de détruire des systèmes stellaires. Ce symbole de pouvoir fut finalement détruit par la Résistance, marquant la fin du passé sacré d'Ilum."
     },
     {
       "name": "Takodana ",
-      "image": "takodana.png"
-    } 
+      "image": "takodana.png",
+      "location": "Bordure  Médiane, Confins Occidentaux",
+      "type": "Tellurique",
+      "population": "Moins de 1 000 000",
+      "climate": "Chaud et humide",
+      "landscape": "Forêts, Plaines, Lacs, mers",
+      "notable_places": ["Château de Maz Kanata", "Lac Nymeve"],
+      "affiliation": ["Neutre"],
+      "description": "Takodana est une planète verdoyante et boisée de la Bordure Médiane, connue pour ses vastes forêts, ses lacs scintillants et son château majestueux, celui de Maz Kanata. Cette forteresse ancienne, vieille de plus d'un millénaire, sert de refuge neutre pour contrebandiers, chasseurs de primes et voyageurs. Bien que paisible, Takodana est un carrefour galactique où se croisent alliés et ennemis. La tranquillité est rompue lorsque le Premier Ordre attaque, détruisant le château. Malgré cela, Takodana demeure un symbole d'histoires cachées et de rencontres improbables dans la galaxie."
+    }
   ],
   "characters": [
     {
@@ -121,6 +161,7 @@
     {
       "name": "Han Solo",
       "color": "rgba(178, 178, 178, 1)",
+      "tension": 0.1,
       "path": [
         {
           "time": "00:05",
@@ -130,7 +171,7 @@
         {
           "time": "00:20",
           "event":"Rey découvre la Force",
-          "planet": 1
+          "planet": 4
         },
         {
           "time": "00:30",

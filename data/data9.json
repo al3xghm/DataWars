@@ -2,27 +2,75 @@
     "planets": [
       {
         "name": "Ajan Kloss",
-        "image": "ajankloss.png"
+        "image": "ajankloss.png",
+        "location": "Bordure extérieure",
+        "type": "Tellurique",
+        "population": "Variable",
+        "climate": "Humide",
+        "landscape": "Jungles, Forêts, Falaises et vallées, Grottes, Océans",
+        "notable_places": ["Klosslands, Base de la Résistance, Terrain d'entraînement d'Ajan Kloss"],
+        "affiliation": ["Kloss, Nouvelle République, Résistance"],
+        "description": "Ajan Kloss est une planète verdoyante située dans les Régions Inconnues, célèbre pour ses jungles denses et ses rivières sinueuses. Cachée des regards extérieurs, elle devient un refuge pour la Résistance après la destruction de leur ancienne base. Ce monde isolé est idéal pour l'entraînement et la réorganisation des forces rebelles. Rey y perfectionne ses compétences de Jedi sous l'œil de Leia Organa, faisant d'Ajan Kloss un lieu stratégique pour préparer la bataille finale contre le Premier Ordre, symbole de renouveau et de paix au cœur d'une galaxie en guerre."
       },
       {
         "name": "Pasaana",
-        "image": "pasaana.png"
+        "image": "pasaana.png",
+        "location": "Zone d'Expansion",
+        "type": "Planète Désertique",
+        "population": "500 000",
+        "climate": "Aride",
+        "landscape": "Déserts, Dunes, Montagnes, Falaises",
+        "notable_places": ["Aki-Ktura, Canyon du Cahot, Désert d'Ikledu, Montagnes Jamtareen, Passage oriental, Vallée Interdite"],
+        "affiliation": ["Neutre"],
+        "description": "Pasaana est une planète désertique située dans les Régions Inconnues, connue pour ses vastes étendues de sable doré et ses formations rocheuses majestueuses. Bien qu'inhospitalière, elle est habitée par les Aki-Aki, un peuple pacifique qui célèbre chaque année le Festival des Ancêtres, un événement vibrant de danses et de traditions culturelles. La planète abrite des grottes souterraines et des montagnes cachant des secrets anciens liés à la Force. Lors de la quête de Rey pour retrouver des artefacts Sith, Pasaana devient un champ de bataille chaotique, tout en symbolisant l'héritage de ses habitants."
       },
       {
         "name": "Kijimi",
-        "image": "kijimi.png"
+        "image": "kijimi.png",
+        "location": "Bordure Médiane",
+        "type": "Planète Glaciale",
+        "population": "310 000 000",
+        "climate": "Froid",
+        "landscape": "Montagnes, Neige",
+        "notable_places": ["Glacier Lha-Mi, Cache secrète de Passeurs d'Épice, Gorge de Ghal Kadarthu, Massif Ghollidaru, Mont Izukika, Kijimi City, Vallée du fleuve Galinkandoker"],
+        "affiliation": ["Neutre"],
+        "description": "Kijimi est une planète montagneuse et froide de la Bordure Extérieure, célèbre pour ses paysages enneigés et ses villes aux ruelles étroites. Kijimi City, sa principale agglomération, est un centre d'activités clandestines, où contrebandiers, mercenaires et membres de la Résistance se regroupent pour organiser des opérations secrètes contre le Premier Ordre. Malgré un climat difficile, la planète abrite une population diverse. Cependant, Kijimi subit une destruction tragique lorsqu'un destroyer stellaire de la flotte Sith réduit la ville en cendres, marquant un tournant sombre dans la lutte galactique."
       },
       {
         "name": "Endor",
-        "image": "endor.png"
+        "image": "endor.png",
+        "location": "Bordure extérieure",
+        "type": "Géante gazeuse",
+        "population": "30 000 000",
+        "climate": "Humide",
+        "landscape": "Forêt",
+        "notable_places": ["Village Ewok"],
+        "affiliation": ["Empire Galactique"],
+        "description": "Située dans le système d'Endor, Endor est une l'une riche et forêtée, réputée pour ses forêts abondantes et ses imposants arbres imposants. On la reconnaît comme le lieu de l'affrontement crucial entre la Rébellion et l'Empire, au cours duquel les troupes rebelles détruisent la seconde Étoile de la Mort.Endor, où vivent les Ewoks, de petites créatures qui ressemblent aux ours, est un véritable havre de biodiversité. Les Ewoks mènent une vie harmonieuse avec le milieu naturel, bâtis dans les bois et exerçant une chasse qui préserve la nature. Leur intelligence et leur détermination sont essentielles pour la réussite de la Rébellion. Endor symbolise l'espoir et la résistance face à l'oppression, se transformant en un emblème de liberté suite à une victoire. Son histoire et sa splendeur naturelle en font un endroit unique."
       },
       {
         "name": "Mustafar",
-        "image": "mustafar.png"
+        "image": "mustafar.png",
+        "location": "Territoires de la Bordure Extérieure",
+        "type": "Volcanique",
+        "population": "1 million",
+        "climate": "Chaud, volcanique",
+        "landscape": "Volcans, lacs de lave",
+        "notable_places": ["Forteresse de Dark Vador"],
+        "affiliation": ["Ordre Sith", "Empire Galactique"],
+        "description": "Mustafar est une planète volcanique située dans la Bordure Extérieure. Ses paysages sont dominés par des volcans en éruption et des lacs de lave brûlante. La Forteresse de Dark Vador est un lieu sinistre construit par l'ancien Jedi Anakin Skywalker après sa transformation en Seigneur Sith. Mustafar est le théâtre d'un duel épique entre Obi-Wan Kenobi et Anakin Skywalker, qui marque le début de la chute de ce dernier du côté obscur de la Force."
       },
       {
         "name": "Exegol",
-        "image": "exegol.png"
+        "image": "exegol.png",
+        "location": "Bordure extérieure",
+        "type": "Tellurique",
+        "population": "Variable",
+        "climate": "Glacial",
+        "landscape": "Plaines stériles et rocailleuses",
+        "notable_places": ["Citadelle Sith, Désert de Hâsk, Escarpement de Sadow, Plateau de Han Zduul"],
+        "affiliation": ["Sith, Éternel Sith, Dernier Ordre"],
+        "description": "Exegol est une planète cachée dans les Régions Inconnues, réputée pour son atmosphère sombre et ses mystères liés au côté obscur de la Force. Recouverte de tempêtes de poussière et d'un ciel perpétuellement nuageux, son accès est gardé secret par les Sith depuis des millénaires. Exegol abrite d'immenses cités souterraines et des temples où des rituels Sith ont été pratiqués. Au cœur de cette planète, l'Empereur Palpatine, ressuscité, cherche à reconstruire un nouvel Empire, dissimulant une flotte de destroyers stellaires capables de détruire des planètes. Exegol incarne le pouvoir absolu et le mysticisme Sith."
       }
       
     ],

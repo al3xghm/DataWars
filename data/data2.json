@@ -2,23 +2,63 @@
     "planets": [
       {
         "name": "Kamino",
-        "image": "kamino.png"
+        "image": "kamino.png",
+        "location": "Dédale de Risho",
+        "type": "Planète-Océan",
+        "population": "1 000 000 000",
+        "climate": "Humide et orageux",
+        "landscape": "Océans",
+        "notable_places": ["Centre de clonage"],
+        "affiliation": ["République Galactique"],
+        "description": "Kamino, une planète océanique isolée dans la Bordure Extérieure, est connue pour ses vastes mers déchaînées et ses tempêtes incessantes. Autrefois terre solide, elle a été submergée par un bouleversement climatique, laissant place à des cités flottantes construites par ses habitants, les Kaminoans. Renommée pour ses laboratoires de clonage, Kamino est devenue essentielle lors de la création de l'armée de clones pour la République. La capitale, Tipoca City, abrite des installations de clonage où des millions de soldats ont été produits, jouant ainsi un rôle crucial dans les événements galactiques tout en restant mystérieuse et inaccessible."
       },
       {
         "name": "Naboo",
-        "image": "naboo.png"
+        "image": "naboo.png",
+        "location": "Bordure Médiane",
+        "type": "Planète tellurique",
+        "population": "450 000 000",
+        "climate": "Tempéré",
+        "landscape": "Plaines, Forêts, Marécages, Villes",
+        "notable_places": ["Theed", "Otoh Gunga"],
+        "affiliation": ["République Galactique"],
+        "description": "Naboo, une planète verdoyante des Mondes du Noyau, est célèbre pour ses paysages luxuriants, ses vastes prairies, ses forêts denses et ses lacs cristallins. Colonisée par des explorateurs, elle est rapidement devenue un centre de commerce et d'art, symbolisant la paix et la prospérité. Habité par des humains et les Gungans, une race amphibie, Naboo est connue pour sa capitale, Theed, et ses cités sous-marines. Bien que touchée par des conflits comme l'invasion de la Fédération du Commerce, la planète a su préserver l'harmonie entre ses habitants, étant le berceau de figures historiques comme Padmé Amidala et l'empereur Palpatine."
       },
       {
         "name": "Geonosis",
-        "image": "geonosis.png"
+        "image": "geonosis.png",
+        "location": "Bordure extérieure",
+        "type": "Planète-désert",
+        "population": "100 000 000 000",
+        "climate": "Désertique",
+        "landscape": "Déserts, Canyons",
+        "notable_places": ["Ruche Stalgasin, Arène de Petranaki"],
+        "affiliation": ["Confédération des systèmes indépendants, République galactique, Empire galactique"],
+        "description": "Géonosis est une planète aride et rocailleuse de la Bordure Séparatiste, connue pour ses paysages désertiques et ses cavernes souterraines. La surface est parsemée de roches anguleuses et de sables ocre, tandis que le ciel est souvent rougeâtre. Célèbre pour la première bataille de la guerre des clones, elle est habitée par les Géonosiens, des insectoïdes ingénieux qui fabriquent des armées de droïdes pour la Confédération. Les cavernes abritent des installations de fabrication et des refuges pour les séparatistes. La bataille emblématique marque le début d'un conflit galactique majeur."
       },
       {
         "name": "Coruscant",
-        "image": "coruscant.png"
+        "image": "coruscant.png",
+        "location": "Mondes du Noyau",
+        "type": "Œcuménopole",
+        "population": "998 374 milliards",
+        "climate": "Artificiel, tempéré",
+        "landscape": "Urbain",
+        "notable_places": ["Sénat Galactique", "Temple Jedi"],
+        "affiliation": ["Ordre Jedi", "République Galactique", "Empire Galactique"],
+        "description": "Coruscant est une planète entièrement urbanisée et située au centre de la galaxie. Capitale politique, elle symbolise l'apogée de la civilisation galactique. Le Temple Jedi et le Sénat Galactique sont deux de ses lieux emblématiques. Toutefois, sous les gratte-ciel scintillants, les niveaux inférieurs abritent criminalité et pauvreté, créant un contraste marqué avec les quartiers riches."
       },
       {
-        "name": "Tatooine",
-        "image": "tatooine.png"
+      "name": "Tatooine",
+      "image": "tatooine.png",
+      "location": "Territoires de la Bordure Extérieure",
+      "type": "Désertique",
+      "population": "200 000",
+      "climate": "Aride",
+      "landscape": "Désert, canyons, oasis",
+      "notable_places": ["Mos Eisley", "Ferme des Lars", "Palais de Jabba le Hutt"],
+      "affiliation": ["Hutt", "Empire Galactique"],
+      "description": "Tatooine est une planète désertique située dans la Bordure Extérieure. Ses paysages arides sont dominés par des dunes de sable et des canyons rocheux. Mos Eisley est une ville portuaire notoire pour sa criminalité et son marché noir. La Ferme des Lars est le lieu de résidence de Luke Skywalker, tandis que le Palais de Jabba le Hutt est le repaire du célèbre seigneur du crime. Tatooine est le théâtre de nombreux événements clés de la saga Star Wars, notamment la rencontre entre Luke Skywalker et Obi-Wan Kenobi, ainsi que la libération de Han Solo."
       }
     ],
     "characters": [

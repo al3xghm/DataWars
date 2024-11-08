@@ -2,19 +2,51 @@
   "planets": [
     {
       "name": "Ahch-To",
-      "image": "ahchto.png"
+      "image": "ahchto.png",
+      "location": "Régions inconnues",
+      "type": "Tellurique",
+      "population": "Aucune données",
+      "climate": "Tempéré",
+      "landscape": "Océans, îles",
+      "notable_places": ["Premier temple Jedi", "Village du nouvel ordre Jedi"],
+      "affiliation": ["Ordre Jedi"],
+      "description": "Ahch-To est une planète isolée et océanique des Régions Inconnues, célèbre pour abriter les ruines de la première académie Jedi. Composée de vastes étendues d'eau et de petites îles rocheuses, elle est le lieu où Luke Skywalker choisit de s'exiler après la chute de son nouvel Ordre Jedi. Peuplée par les Caretakers et les Porgs, ses paysages présentent des côtes déchiquetées et des grottes cachées, créant une atmosphère de mysticisme. C'est ici que Rey retrouve Luke pour commencer son entraînement, dans l'espoir de restaurer l'équilibre face au Premier Ordre. Ahch-To incarne les racines de l'héritage Jedi, un lieu de contemplation et de rédemption."
     },
     {
       "name": "D'Qar",
-      "image": "dqar.png"
+      "image": "dqar.png",
+      "location": "Bordure Extérieure",
+      "type": "Tellurique",
+      "population": "Variable",
+      "climate": "Tempéré",
+      "landscape": "Jungle",
+      "notable_places": ["Quartier général de la Résistance"],
+      "affiliation": ["Alliance Rebelle, Résistance"],
+      "description": "D'Qar est une planète paisible et verdoyante de la Bordure Extérieure, utilisée comme base secrète par la Résistance contre le Premier Ordre. Recouverte de forêts denses et de plaines luxuriantes, elle abrite des hangars souterrains et des pistes d'atterrissage rudimentaires, d'où Leia Organa et ses alliés planifient des missions cruciales, notamment l'attaque contre la Base Starkiller. La tranquillité de D'Qar est rompue lorsque le Premier Ordre découvre sa localisation, forçant l'évacuation. Malgré cela, D'Qar demeure un symbole de détermination et d'espoir pour la Résistance."
     },
     {
       "name": "Cantonica",
-      "image": "cantonica.png"
+      "image": "cantonica.png",
+      "location": "Bordure Extérieure",
+      "type": "Planète Désertique",
+      "population": "1 057 862",
+      "climate": "Déserts",
+      "landscape": "Océans",
+      "notable_places": ["Canto Bight, Mer de Cantonica"],
+      "affiliation": ["Premier ordre"],
+      "description": "Cantonica est une planète désertique des Régions Trans-Hydiennes, célèbre pour Canto Bight, une ville de luxe et de divertissement. Bien que ses vastes déserts soient arides, Canto Bight brille par ses casinos fastueux, ses hôtels grandioses et ses courses de fathiers, attirant les élites galactiques en quête de plaisirs. Cependant, derrière cette opulence se cachent de sombres réalités, car les riches prospèrent grâce à l'exploitation des classes ouvrières, souvent réduites à l'esclavage. Canto Bight incarne ainsi l'inégalité galactique, où la richesse des uns repose sur la souffrance des autres."
     },
     {
       "name": "Crait",
-      "image": "crait.png"
+      "image": "crait.png",
+      "location": "Bordure Extérieure",
+      "type": "Planète Rocheuse",
+      "population": "0",
+      "climate": "Tempéré",
+      "landscape": "Couvert de sel, Montagnes, Canyons",
+      "notable_places": ["Avant-poste de Crait, Plaines de sel Nupayuni, Mines"],
+      "affiliation": ["La rébellion, Alliance Rebelle, Résistance"],
+      "description": "Crait est une planète désertique située dans l'Empire des Ruches, caractérisée par ses vastes étendues de sel blanc recouvrant une surface rougeâtre. Son sol, riche en minéraux, produit des cristaux salins qui créent des paysages spectaculaires. La planète est surtout connue pour la bataille de Crait, où la Résistance se réfugia contre le Premier Ordre. Ses anciennes installations minières, aujourd'hui abandonnées, ajoutent une atmosphère mystérieuse et mélancolique."
     }
   ],
   "characters": [
