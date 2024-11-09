@@ -26,12 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
     // Appeler la fonction au chargement de la page
     window.addEventListener('load', updateBackgroundWithPlanet);
 
-
     async function fetchData(episode) {
         const response = await fetch(`data/data${episode}.json`);
         return response.json();
     }
-
 
     const episodeButtons = document.querySelectorAll('.episode-buttons button');
     const titleElement = document.querySelector('section h1'); // Sélectionnez le H1 de la section
@@ -190,30 +188,30 @@ document.addEventListener("DOMContentLoaded", function () {
                         const isPlanetVisited = chart.data.datasets.some(dataset => {
                             return !dataset.hidden && dataset.data.some(point => point.y === index);
                         });
-                    
+
                         planet.opacity = isPlanetVisited ? 1 : 0;
-                    
+
                         chart.ctx.globalAlpha = planet.opacity;
                         const yPos = yScale.getPixelForValue(index);
-                        
+
                         // Position de l'image de la planète
                         const planetXPosition = chart.chartArea.left - 80;
                         const planetImageWidth = 50; // Largeur de l'image de la planète
-                    
+
                         // Dessiner l'image de la planète
                         chart.ctx.drawImage(planet.img, planetXPosition, yPos - 30, planetImageWidth, 50);
-                    
+
                         // Configurer le style pour le texte
                         chart.ctx.fillStyle = 'white';
                         chart.ctx.textAlign = 'center'; // Centrer le texte
-                    
+
                         // Dessiner le texte centré sous l'image de la planète
                         chart.ctx.fillText(
-                            planet.name, 
+                            planet.name,
                             planetXPosition + planetImageWidth / 2, // Position X centrée
                             yPos + 35 // Position Y sous l'image
                         );
-                    
+
                         // Ajouter la zone de la planète
                         planetAreas.push({
                             x: planetXPosition,
@@ -222,7 +220,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             height: 50
                         });
                     });
-                    
+
 
                     chart.ctx.globalAlpha = 1;
 
@@ -263,7 +261,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         return myChart;
     }
-
 
     function toggleDataset(datasetIndex) {
         const dataset = myChart.data.datasets[datasetIndex];
@@ -341,56 +338,59 @@ document.addEventListener("DOMContentLoaded", function () {
     // Appeler la fonction pour définir les images de fond
     setEpisodeButtonBackgrounds();
 
+    // Sélectionner les éléments de la modale
+    const body = document.querySelector('body');
+    const modal = document.getElementById("planetModal");
+    const modalWrap = document.getElementById("modal-wrap-bg");
+    const span = document.getElementsByClassName("close")[0];
+    const planetNameElement = document.getElementById("planetName");
+    const planetImageElement = document.getElementById("planetImage");
+    const planetDescriptionElement = document.getElementById("planetDescription");
+    const planetLocationElement = document.getElementById("planetLocation");
+    const planetTypeElement = document.getElementById("planetType");
+    const planetPopulationElement = document.getElementById("planetPopulation");
+    const planetClimateElement = document.getElementById("planetClimate");
+    const planetLandscapeElement = document.getElementById("planetLandscape");
+    const planetNotablePlacesElement = document.getElementById("planetNotablePlaces");
+    const planetAffiliationElement = document.getElementById("planetAffiliation");
 
-   // Sélectionner les éléments de la modale
-const body = document.querySelector('body');   
-const modal = document.getElementById("planetModal");
-const span = document.getElementsByClassName("close")[0];
-const planetNameElement = document.getElementById("planetName");
-const planetImageElement = document.getElementById("planetImage");
-const planetDescriptionElement = document.getElementById("planetDescription");
-const planetLocationElement = document.getElementById("planetLocation");
-const planetTypeElement = document.getElementById("planetType");
-const planetPopulationElement = document.getElementById("planetPopulation");
-const planetClimateElement = document.getElementById("planetClimate");
-const planetLandscapeElement = document.getElementById("planetLandscape");
-const planetNotablePlacesElement = document.getElementById("planetNotablePlaces");
-const planetAffiliationElement = document.getElementById("planetAffiliation");
+    function showModal(planet) {
+        planetNameElement.innerText = planet.name;
+        planetImageElement.src = `images/planets/${planet.image}`;
+        planetDescriptionElement.innerText = planet.description;
+        planetLocationElement.innerText = planet.location;
+        planetTypeElement.innerText = planet.type;
+        planetPopulationElement.innerText = planet.population;
+        planetClimateElement.innerText = planet.climate;
+        planetLandscapeElement.innerText = planet.landscape;
+        planetNotablePlacesElement.innerText = planet.notable_places.join(', ');
+        planetAffiliationElement.innerText = planet.affiliation.join(', ');
+        // modalWrap[0].style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('images/planets/${planet.image}')`;
 
-function showModal(planet) {
-    planetNameElement.innerText = planet.name;
-    planetImageElement.src = `images/planets/${planet.image}`;
-    planetDescriptionElement.innerText = planet.description;
-    planetLocationElement.innerText = `Localisation : ${planet.location}`;
-    planetTypeElement.innerText = `Type : ${planet.type}`;
-    planetPopulationElement.innerText = `Population : ${planet.population}`;
-    planetClimateElement.innerText = `Climat : ${planet.climate}`;
-    planetLandscapeElement.innerText = `Paysage : ${planet.landscape}`;
-    planetNotablePlacesElement.innerText = `Lieux remarquables : ${planet.notable_places.join(', ')}`;
-    planetAffiliationElement.innerText = `Affiliation : ${planet.affiliation.join(', ')}`;
+        modalWrap.src = `images/planets/${planet.image}`;
 
-    // Ajoute la classe de rotation à l'image
-    planetImageElement.classList.add('rotate');
-    planetImageElement.style.maxWidth = '400px';
-    modal.style.display = "flex";
-    body.style.overflow = 'hidden'; // Empêche le défilement de la page
-}
-
-// Fermer la modale lorsqu'on clique sur le bouton de fermeture
-span.onclick = function () {
-    modal.style.display = "none";
-    planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation à la fermeture
-    body.style.overflow = 'auto'; // Active le défilement de la page
-}
-
-// Optionnel : Fermer la modale en cliquant en dehors d'elle
-window.onclick = function (event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
-        planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation
-        body.style.overflow = 'auto'; // Réactiver le défilement
+        // Ajoute la classe de rotation à l'image
+        planetImageElement.classList.add('rotate');
+        planetImageElement.style.maxWidth = '350px';
+        modal.style.display = "flex";
+        body.style.overflow = 'hidden'; // Empêche le défilement de la page
     }
-}
+
+    // Fermer la modale lorsqu'on clique sur le bouton de fermeture
+    span.onclick = function () {
+        modal.style.display = "none";
+        planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation à la fermeture
+        body.style.overflow = 'auto'; // Active le défilement de la page
+    }
+
+    // Optionnel : Fermer la modale en cliquant en dehors d'elle
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+            planetImageElement.classList.remove('rotate'); // Retirer la classe de rotation
+            body.style.overflow = 'auto'; // Réactiver le défilement
+        }
+    }
 
 
 
@@ -410,10 +410,22 @@ window.onclick = function (event) {
             toggleButton.textContent = "🤫"; // Optionnel : changez le texte du bouton
         } else {
             audio.pause(); // Met en pause la musique
-            toggleButton.classList.remove("active"); 
-            toggleButton.textContent = "🎷"; 
+            toggleButton.classList.remove("active");
+            toggleButton.textContent = "🎷";
         }
     });
 
-    
+    // loader at the start of the page, remove it from dom after 10 seconds
+    const loader = document.querySelector('.loader');
+
+    setTimeout(() => {
+        loader.style.opacity = 0;
+        loader.style.transition = 'opacity 1s';
+        setTimeout(() => {
+            loader.remove();
+            document.body.style.overflowY = 'auto';
+        }
+            , 1000);
+    }, 7000);
+
 });

@@ -20,6 +20,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+    overflow-y: hidden;
 }
 
 .page-wrap {
@@ -48,7 +49,7 @@ body {
 
 header .page-wrap {
     padding: 60px 90px;
-    clip-path: polygon(0 1.5rem,1.5rem 0,calc(100% - 1.5rem) 0,100% 1.5rem,100% calc(100% - 1.5rem),calc(100% - 1.5rem) 100%,1.5rem 100%,0 calc(100% - 1.5rem));
+    clip-path: polygon(0 1.5rem, 1.5rem 0, calc(100% - 1.5rem) 0, 100% 1.5rem, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 1.5rem 100%, 0 calc(100% - 1.5rem));
 }
 
 footer {
@@ -58,7 +59,7 @@ footer {
 
 footer .page-wrap {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://external-preview.redd.it/y_YdHJBLaUlgNnIqvscJYAtTnN3ywXT4U4kn9uLSnr4.jpg?width=1080&crop=smart&auto=webp&s=4c360717231ca325d7d5b2537d3cfa164cba249a);
-    clip-path: polygon(0 1.5rem,1.5rem 0,calc(100% - 1.5rem) 0,100% 1.5rem,100% calc(100% - 1.5rem),calc(100% - 1.5rem) 100%,1.5rem 100%,0 calc(100% - 1.5rem));
+    clip-path: polygon(0 1.5rem, 1.5rem 0, calc(100% - 1.5rem) 0, 100% 1.5rem, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 1.5rem 100%, 0 calc(100% - 1.5rem));
 }
 
 footer .copyrights {
@@ -128,7 +129,8 @@ header {
     z-index: 0;
 }
 
-.headerleft, .footerleft {
+.headerleft,
+.footerleft {
     height: 100%;
     width: 50%;
     display: flex;
@@ -140,7 +142,8 @@ header {
     z-index: 1;
 }
 
-.headerright, .footerright {
+.headerright,
+.footerright {
     height: 100%;
     width: 50%;
     display: flex;
@@ -166,7 +169,8 @@ footer h1 {
     letter-spacing: -6px;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Kode Mono', sans-serif;
     text-transform: uppercase;
 }
@@ -201,7 +205,8 @@ header .subtitle {
     max-width: 400px;
 }
 
-header .headerright .description, .legal {
+header .headerright .description,
+.legal {
     margin-top: auto;
     margin-left: auto;
     max-width: 320px;
@@ -221,6 +226,47 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.starry-background {
+    position: relative;
+    width: 99vw;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.starry-background::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 1px;
+    opacity: 0.5;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: -42vw -4vh 0px 0px #fff, 25vw -41vh 0px 0px #fff, -20vw 49vh 0px 1px #fff,
+        5vw 40vh 1px 1px #fff, 29vw 19vh 1px 0px #fff, -44vw -13vh 0px 0px #fff,
+        46vw 41vh 0px 1px #fff, -3vw -45vh 0px 1px #fff, 47vw 35vh 1px 0px #fff,
+        12vw -8vh 1px 0px #fff, -34vw 48vh 1px 1px #fff, 32vw 26vh 1px 1px #fff,
+        32vw -41vh 1px 1px #fff, 0vw 37vh 1px 1px #fff, 34vw -26vh 1px 0px #fff,
+        -14vw -49vh 1px 0px #fff, -12vw 45vh 0px 1px #fff, -44vw -33vh 0px 1px #fff,
+        -13vw 41vh 0px 0px #fff, -36vw -11vh 0px 1px #fff, 15vw 18vh 0px 0px #fff,
+        25vw -13vh 1px 1px #fff, -46vw -12vh 1px 1px #fff, -18vw 22vh 0px 0px #fff,
+        23vw -9vh 1px 0px #fff, 50vw 12vh 0px 1px #fff, 45vw 2vh 0px 0px #fff,
+        14vw -48vh 1px 0px #fff, 23vw 43vh 0px 1px #fff, -40vw 16vh 1px 1px #fff,
+        20vw -31vh 0px 1px #fff, -17vw 44vh 1px 1px #fff, 18vw -45vh 0px 0px #fff,
+        -19vw 5vh 1px 0px #fff, 1vw 42vh 0px 0px #fff, 22vw 48vh 0px 1px #fff,
+        39vw -8vh 1px 1px #fff, -6vw -42vh 1px 0px #fff, -47vw 34vh 0px 0px #fff,
+        -46vw 19vh 0px 1px #fff, -12vw -32vh 0px 0px #fff, -45vw -38vh 0px 1px #fff,
+        -28vw 18vh 1px 0px #fff, -38vw -46vh 1px 1px #fff, 49vw -6vh 1px #fff,
+        33vw -6vh 0px 0px #fff, 0vw 7vh 0px 1px #fff, -10vw -18vh 0px 1px #fff,
+        -28vw 18vh 1px 1px #fff, 10vw -24vh 0px 1px #fff, -5vw -11vh 1px 1px #fff,
+        33vw -8vh 1px 0px #fff, -16vw 17vh 0px 0px #fff, 18vw 27vh 0px 1px #fff,
+        -8vw -10vh 1px 1px #fff;
+    animation: zoom 20s alternate infinite;
 }
 
 .navbar {
@@ -369,6 +415,11 @@ h1 {
     margin-top: 15px;
 }
 
+.legendsub {
+    opacity: 0.7;
+    margin-top: 1.5rem;
+}
+
 button {
     border: 2px solid grey;
     border-radius: 50px;
@@ -395,11 +446,8 @@ button.active {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-        padding: 0;
+    padding: 0;
 }
-
-
-
 
 .hidden {
     opacity: 0.5;
@@ -411,71 +459,165 @@ button.active {
     z-index: 1;
     left: 0;
     top: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .modal-wrap {
-    height: 100vh;
-    background-color: black;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #888;
+    height: fit-content;
+    background-color: rgb(9, 9, 9);
+    background-size: 140%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    padding: 40px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.modal-content{
-    display: flex;
+    max-width: 1300px;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
     flex-direction: column;
-    width: 70%;
+    position: relative;
+    clip-path: polygon(0 1.5rem, 1.5rem 0, calc(100% - 1.5rem) 0, 100% 1.5rem, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 1.5rem 100%, 0 calc(100% - 1.5rem));
+}
+
+#modal-wrap-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: auto;
+    filter: blur(10px) brightness(0.2);
+    z-index: -1;
+}
+
+.modal-wrap .tvoverlay {
+    height: auto;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    width: fit-content;
     margin: 0 auto;
 }
 
-.modal-wrapper{
+.modal-wrapper {
     display: flex;
-    gap: 4rem;
+    gap: 1rem;
+    width: fit-content;
 }
 
-.modal-content-left{
-    width: 50%;
+.modal-content-left {
+    flex-direction: column;
+    display: flex;
+    gap: 0.5rem;
     font-size: 1.2rem;
+    width: 50%;
+    animation: fadein 0.5s linear;
+
 }
 
+.modal-content-left p {
+    font-weight: 700;
+}
 
-.modal-content-right{
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal-content-left p span {
+    font-weight: 400;
+}
+
+.modal-content-right {
     width: 50%;
+    animation: fadein 0.5s linear;
+
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    font-size: 1.1rem;
+    justify-content: space-between;
+}
+
+.modal-content-right p {
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.modal-content-right small {
+    text-align: right;
+    opacity: 0.7;
 }
 
 .modal-content h2 {
-font-size: 3rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#planetImage {
+    height: 100%;
+    width: 100% !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .modal-content {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-content {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .modal-wrapper {
+        flex-direction: column;
+    }
+
+    .modal-wrap {
+        padding: 20px;
+    }
+
+    .modal-content-left {
+        width: 100%;
+    }
+
+    .modal-content-right {
+        width: 100%;
+    }
 }
 
 
 .close {
     color: #aaa;
-    position: fixed;
+    position: absolute;
     top: 15px;
-    right: 35px;
-    font-size: 28px;
-    font-weight: bold;
+    right: 25px;
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 .close:hover,
 .close:focus {
-    color: grey;
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
 
-/* Ajoute une animation de rotation */
 @keyframes rotate {
     from {
         transform: rotate(0deg);
@@ -486,8 +628,30 @@ font-size: 3rem;
     }
 }
 
-/* Classe pour la rotation lente */
 .rotate {
     animation: rotate 500s linear infinite;
-    /* 30 secondes pour une rotation complète */
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+.loader {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

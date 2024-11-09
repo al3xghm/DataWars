@@ -10,6 +10,11 @@
 </head>
 
 <body>
+
+    <!-- loader -->
+    <div class="loader">
+        <img src="./images/loader.gif" alt="">
+    </div>
     <header>
         <nav class="navbar" id="logoContainer">
             <div class="logo">
@@ -17,17 +22,14 @@
             </div>
         </nav>
         <div class="page-wrap">
-
             <div class="headerleft">
-
                 <p class="time"></p>
                 <div class="title">
                     <h1>DATAWARS</h1>
                     <h2>Une datavisualisation Star Wars</h2>
                 </div>
 
-                <p class="subtitle">Si les personnages s'arretent à un moment dans le graphique, cela veut dire qu'ils sont décédés sur la dernière planète.
-                </p>
+                <p class="subtitle"></p>
             </div>
 
             <div class="headerright">
@@ -42,16 +44,16 @@
     </header>
 
 
-<!-- Bouton de son -->
-<div class="sound">
-    <button id="toggleSound" class="mute-btn">🎷</button>
-    <audio id="myAudio" loop>
-        <source src="sound/music.mp3" type="audio/mpeg">
-    </audio>
-</div>
+    <!-- Bouton de son -->
+    <div class="sound">
+        <button id="toggleSound" class="mute-btn">🎷</button>
+        <audio id="myAudio" loop>
+            <source src="sound/music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
 
 
-    <section>
+    <section class="starry-background">
         <h1></h1>
         <div id="chartContainer">
             <div class="episode-buttons">
@@ -74,31 +76,39 @@
         <div class="legend" id="legendContainer">
             <!-- Les boutons de légende seront générés dynamiquement -->
         </div>
+        <p class="legendsub">Une ligne terminée avant la fin de l'épisode signifie le décès du personnage sur sa dernière planète.</p>
 
         <div id="planetModal" class="modal">
             <div class="modal-wrap">
+                <img id="modal-wrap-bg" src="" alt="background">
+                <img class="tvoverlay" src="https://staticdress.com/img/puzzle/scanlines.gif" alt="">
                 <div class="modal-content">
-                    <h2 id="planetName"></h2>
                     <img id="planetImage" src="" alt="Image de la planète" />
                     <div class="modal-wrapper">
-                    <div class="modal-content-left">
-                    <p id="planetDescription"></p>
-                </div>
-                <div class="modal-content-right">
-                    <p id="planetLocation"></p>
-                    <p id="planetType"></p>
-                    <p id="planetPopulation"></p>
-                    <p id="planetClimate"></p>
-                    <p id="planetLandscape"></p>
-                    <p id="planetNotablePlaces"></p>
-                    <p id="planetAffiliation"></p>
+                        <div class="modal-content-left">
+                            <h2 id="planetName"></h2>
+
+                            <p>Localisation : <span id="planetLocation"></span></p>
+                            <p>Type : <span id="planetType"></span></p>
+                            <p>Population : <span id="planetPopulation"></span></p>
+                            <p>Climat : <span id="planetClimate"></span></p>
+                            <p>Paysage : <span id="planetLandscape"></span></p>
+                            <p>Lieux remarquables : <span id="planetNotablePlaces"></span></p>
+                            <p>Affiliation : <span id="planetAffiliation"></span></p>
+
+                            
+                        </div>
+                        <div class="modal-content-right">
+                            <p id="planetDescription"></p>
+                            <small>© Star-Wars Fandom</small>
+                        </div>
+
                     </div>
-                    </div>
                 </div>
-            <span class="close">&times;</span>
+                <span class="close">&times;</span>
             </div>
         </div>
-        
+
 
     </section>
 
