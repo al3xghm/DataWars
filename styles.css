@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 *,
@@ -21,6 +20,11 @@ body {
     background-attachment: fixed;
     position: relative;
     overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .page-wrap {
@@ -126,7 +130,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
+    z-index: -1;
 }
 
 .headerleft,
@@ -182,6 +186,10 @@ header .title h1 {
 
 }
 
+header .title {
+    margin: auto 0;
+}
+
 header h1 {
     font-size: 10rem;
     letter-spacing: -6px;
@@ -219,6 +227,84 @@ header .headerright .description,
 
 .legal {
     max-width: 800px;
+}
+
+.legalbtn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: rgb(246, 246, 225);
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0;
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.legalbtn:hover {
+    color: #aaa;
+}
+
+.legalpopup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.legalpopupcontent {
+    position: relative;
+    padding: 40px;
+    background-color: rgba(17, 17, 17, 0.953);
+    width: 100%;
+    max-width: 900px;
+    margin: 0 20px;
+    border: 1px solid #8888886e;
+    /* clip-path: polygon(0 1.5rem, 1.5rem 0, calc(100% - 1.5rem) 0, 100% 1.5rem, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 1.5rem 100%, 0 calc(100% - 1.5rem)); */
+}
+
+.legalpopupcontent ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.legalpopupcontent ul li {
+    font-weight: 300;
+    list-style: square;
+    line-height: 1.5;
+}
+
+.legalpopupcontent ul li a {
+    font-weight: 700;
+}
+
+.legalpopupcontent h3 {
+    font-weight: 400;
+}
+
+.legalpopupcontent h3 a {
+    font-weight: 600;
+}
+
+.closelegalcontent {
+    color: #aaa;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 2rem;
+    font-weight: 300;
+    cursor: pointer;
 }
 
 section {
@@ -491,11 +577,12 @@ button.active {
     width: 150%;
     height: auto;
     filter: blur(10px) brightness(0.2);
-    z-index: -1;
+    z-index: -2;
 }
 
 .modal-wrap .tvoverlay {
     height: auto;
+    z-index: -1;
 }
 
 .modal-content {

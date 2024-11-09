@@ -415,17 +415,40 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // loader at the start of the page, remove it from dom after 10 seconds
     const loader = document.querySelector('.loader');
 
-    setTimeout(() => {
-        loader.style.opacity = 0;
-        loader.style.transition = 'opacity 1s';
+    if (sessionStorage.getItem('isLoaded') === null) {
+        loader.style.display = 'flex';
         setTimeout(() => {
-            loader.remove();
-            document.body.style.overflowY = 'auto';
-        }
-            , 1000);
-    }, 7000);
+            loader.style.opacity = 0;
+            loader.style.transition = 'opacity 1s';
+            setTimeout(() => {
+                loader.remove();
+                document.body.style.overflowY = 'auto';
+                sessionStorage.setItem('isLoaded', 'true');
+            }, 1000);
+        }, 7000);
+    } else if (sessionStorage.getItem('isLoaded', 'true')) {
+        loader.remove();
+        document.body.style.overflowY = 'auto';
+    } 
+
+
+
+    // onclick on .legalbtn, display legalpopup, onclick of .closelegalcontent, hide legalpopup
+
+    const legalBtn = document.querySelector('.legalbtn');
+    const legalPopup = document.querySelector('.legalpopup');
+    const closeLegalContent = document.querySelector('.closelegalcontent');
+
+    legalBtn.addEventListener('click', () => {
+        legalPopup.style.display = 'flex';
+        body.style.overflow = 'hidden'; // Empêche le défilement de la page
+    });
+
+    closeLegalContent.addEventListener('click', () => {
+        legalPopup.style.display = 'none';
+        body.style.overflow = 'auto'; // Active le défilement de la page
+    });
 
 });
