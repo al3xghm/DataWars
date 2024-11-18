@@ -68,22 +68,22 @@
         "tension": 0.25,
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
             "event":"Tentative d'assassinat de Padmé",
             "planet": 3
           },
           {
-            "time": "00:20",
+            "time": "00:35",
             "event":"Anakin et Padmé sur Naboo",
             "planet": 1
           },
           {
-            "time": "00:30",
+            "time": "00:50",
             "event":"Découverte du complot sur Geonosis",
             "planet": 4
           },
           {
-            "time": "00:45",
+            "time": "01:00",
             "event":"Bataille de Geonosis",
             "planet": 2
           }
@@ -95,22 +95,22 @@
         "tension": 0.55,
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
             "event":"Tentative d'assassinat de Padmé",
             "planet": 3
           },
           {
-            "time": "00:20",
+            "time": "00:35",
             "event":"Anakin et Padmé sur Naboo",
             "planet": 0
           },
           {
-            "time": "00:30",
+            "time": "00:50",
             "event":"Découverte du complot sur Geonosis",
             "planet": 2
           },
           {
-            "time": "00:45",
+            "time": "01:00",
             "event":"Bataille de Geonosis",
             "planet": 3
           }
@@ -122,22 +122,22 @@
         "tension": 0.45,
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
             "event":"Tentative d'assassinat de Padmé",
             "planet": 3
           },
           {
-            "time": "00:20",
+            "time": "00:35",
             "event":"Anakin et Padmé sur Naboo",
             "planet": 0
           },
           {
-            "time": "00:30",
+            "time": "00:50",
             "event":"Découverte du complot sur Geonosis",
             "planet": 2
           },
           {
-            "time": "00:45",
+            "time": "01:00",
             "event":"Bataille de Geonosis",
             "planet": 2
           }
@@ -149,22 +149,22 @@
         "tension": 0.45,
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
             "event":"Tentative d'assassinat de Padmé",
             "planet": 2
           },
           {
-            "time": "00:20",
+            "time": "00:35",
             "event":"Anakin et Padmé sur Naboo",
             "planet": 2
           },
           {
-            "time": "00:30",
+            "time": "00:50",
             "event":"Découverte du complot sur Geonosis",
             "planet": 2
           },
           {
-            "time": "00:45",
+            "time": "01:00",
             "event":"Bataille de Geonosis",
             "planet": 3
           }
@@ -176,22 +176,22 @@
         "tension": 0.2,
         "path": [
           {
-            "time": "00:10",
+            "time": "00:00",
             "event":"Tentative d'assassinat de Padmé",
             "planet": 3
           },
           {
-            "time": "00:20",
+            "time": "00:35",
             "event":"Anakin et Padmé sur Naboo",
             "planet": 0
           },
           {
-            "time": "00:30",
+            "time": "00:50",
             "event":"Découverte du complot sur Geonosis",
             "planet": 2
           },
           {
-            "time": "00:45",
+            "time": "01:00",
             "event":"Bataille de Geonosis",
             "planet": 3
           }
