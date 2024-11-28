@@ -106,21 +106,6 @@
           "time": "00:30",
           "event":"Mort de Yoda",
           "planet": 1
-        },
-        {
-          "time": "01:00",
-          "event":"Bataille d'Endor",
-          "planet": 1
-        },
-        {
-          "time": "01:30",
-          "event":"Duel final et mort de l'Empereur",
-          "planet": 1
-        },
-        {
-          "time": "01:50",
-          "event":"Libération de la galaxie",
-          "planet": 1
         }
       ]
     },

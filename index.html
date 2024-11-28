@@ -13,18 +13,19 @@
 <body>
 
     <!-- loader -->
-    <div class="loader">
-        <img src="./images/loader.gif" alt="">
+    <div class="loader" aria-label="Chargement en cours">
+        <img src="./images/loader.gif" alt="Chargement">
     </div>
+
     <header>
-        <nav class="navbar" id="logoContainer">
+        <nav class="navbar" id="logoContainer" aria-label="Barre de navigation">
             <div class="logo">
                 <img src="images/logo.gif" alt="Logo Star Wars">
             </div>
         </nav>
         <div class="page-wrap">
             <div class="headerleft">
-                <p class="time"></p>
+                <p class="time" aria-label="Heure actuelle"></p>
                 <div class="title">
                     <h1>DATAWARS</h1>
                     <h2>Une datavisualisation Star Wars</h2>
@@ -32,56 +33,55 @@
             </div>
 
             <div class="headerright">
-                <div class="description">
+                <div class="description" aria-label="Description du site">
                     <p>Les personnages de Star Wars voyagent à travers l'univers pour accomplir leur destinée. Découvrez
                         les voyages des personnages à travers les différents épisodes de la saga Star Wars.</p>
                 </div>
             </div>
-            <img class="tvoverlay" src="https://staticdress.com/img/puzzle/scanlines.gif" alt="">
+            <img class="tvoverlay" src="https://staticdress.com/img/puzzle/scanlines.gif" alt="Effet visuel de lignes scannées">
         </div>
     </header>
 
     <!-- Bouton de son -->
-    <div class="sound">
-        <button id="toggleSound" class="mute-btn">🎷</button>
-        <audio id="myAudio" loop>
+    <div class="sound" aria-label="Contrôle du son">
+        <button id="toggleSound" class="mute-btn" aria-label="Activer ou désactiver la musique">🎷</button>
+        <audio id="myAudio" loop aria-label="Musique de fond">
             <source src="sound/music.mp3" type="audio/mpeg">
         </audio>
     </div>
 
-
-    <section class="starry-background">
+    <section class="starry-background" aria-label="Section principale avec fond étoilé">
         <h1></h1>
-        <div id="chartContainer">
-            <div class="episode-buttons">
-                <button id="episode1">I</button>
-                <button id="episode2">II</button>
-                <button id="episode3">III</button>
-                <button id="episode4">IV</button>
-                <button id="episode5">V</button>
-                <button id="episode6">VI</button>
-                <button id="episode7">VII</button>
-                <button id="episode8">VIII</button>
-                <button id="episode9">IX</button>
-                <button id="episode10">R.O</button>
-                <button id="episode11">Solo</button>
+        <div id="chartContainer" aria-label="Graphique des voyages des personnages">
+            <div class="episode-buttons" aria-label="Boutons de sélection d'épisodes">
+                <button id="episode1" aria-label="Épisode I">I</button>
+                <button id="episode2" aria-label="Épisode II">II</button>
+                <button id="episode3" aria-label="Épisode III">III</button>
+                <button id="episode4" aria-label="Épisode IV">IV</button>
+                <button id="episode5" aria-label="Épisode V">V</button>
+                <button id="episode6" aria-label="Épisode VI">VI</button>
+                <button id="episode7" aria-label="Épisode VII">VII</button>
+                <button id="episode8" aria-label="Épisode VIII">VIII</button>
+                <button id="episode9" aria-label="Épisode IX">IX</button>
+                <button id="episode10" aria-label="Rogue One">R.O</button>
+                <button id="episode11" aria-label="Solo">Solo</button>
             </div>
 
-            <canvas id="myChart" width="800" height="400"></canvas>
+            <canvas id="myChart" width="800" height="400" aria-label="Graphique des trajets des personnages"></canvas>
         </div>
 
-        <div class="legend" id="legendContainer">
+        <div class="legend" id="legendContainer" aria-label="Légende du graphique">
             <!-- Les boutons de légende seront générés dynamiquement -->
         </div>
         <p class="legendsub">Une ligne terminée avant la fin de l'épisode signifie le décès du personnage sur sa
             dernière planète.</p>
 
-        <div id="planetModal" class="modal">
+        <div id="planetModal" class="modal" aria-label="Fenêtre modale d'information sur une planète">
             <div class="modal-wrap">
                 <img id="modal-wrap-bg" src="" alt="background">
-                <img class="tvoverlay" src="https://staticdress.com/img/puzzle/scanlines.gif" alt="">
+                <img class="tvoverlay" src="https://staticdress.com/img/puzzle/scanlines.gif" alt="Effet visuel">
                 <div class="modal-content">
-                    <img id="planetImage" src="" alt="Image de la planète" />
+                    <img id="planetImage" src="" alt="Image de la planète sélectionnée" />
                     <div class="modal-wrapper">
                         <div class="modal-content-left">
                             <h2 id="planetName"></h2>
@@ -93,30 +93,26 @@
                             <p>Paysage : <span id="planetLandscape"></span></p>
                             <p>Lieux remarquables : <span id="planetNotablePlaces"></span></p>
                             <p>Affiliation : <span id="planetAffiliation"></span></p>
-
-
                         </div>
                         <div class="modal-content-right">
                             <p id="planetDescription"></p>
                             <small>© Star-Wars Fandom</small>
                         </div>
-
                     </div>
                 </div>
-                <span class="close">&times;</span>
+                <span class="close" aria-label="Fermer la fenêtre modale">&times;</span>
             </div>
         </div>
-
-
     </section>
 
-    <footer>
+    <footer aria-label="Pied de page">
         <div class="page-wrap">
             <div class="footercontent">
                 <div class="footerleft">
                     <h1>Ce n’est pas la destination qui compte, c’est le chemin.</h1>
                 </div>
-                <div class="footerright">
+                <div class="footerright" aria-label="Mentions légales">
+
                     <div class="legal">
                         <p>Université Gustave Eiffel, 5 Boulevard Descartes, 77420 Champs-sur-Marne, France.<br>
                             Représentée par M. Gilles Roussel, Président de l’Université Gustave Eiffel.<br>
