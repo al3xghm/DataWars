@@ -218,11 +218,13 @@ header .headerright .description,
     border: 1px solid #888;
     background-color: #9e9e9e22;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.25;
 }
 
 .legal {
     max-width: 800px;
+    overflow-y: auto;
+
 }
 
 .legalbtn {
@@ -261,9 +263,10 @@ header .headerright .description,
     position: relative;
     padding: 40px;
     background-color: rgba(17, 17, 17, 0.953);
-    width: 100%;
-    max-width: 900px;
-    margin: 0 20px;
+    max-width: 1000px;
+    margin: 0 40px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
     border: 1px solid #8888886e;
 }
 
