@@ -117,7 +117,6 @@ footer {
 
 header {
     position: relative;
-    /* margin-top: 40px; */
 }
 
 .tvoverlay {
@@ -266,7 +265,6 @@ header .headerright .description,
     max-width: 900px;
     margin: 0 20px;
     border: 1px solid #8888886e;
-    /* clip-path: polygon(0 1.5rem, 1.5rem 0, calc(100% - 1.5rem) 0, 100% 1.5rem, 100% calc(100% - 1.5rem), calc(100% - 1.5rem) 100%, 1.5rem 100%, 0 calc(100% - 1.5rem)); */
 }
 
 .legalpopupcontent ul {
@@ -443,9 +441,7 @@ section {
 
 #visualization {
     background-color: #ffffff;
-    /* Couleur de fond pour l'élément SVG */
     border: 1px solid #ddd;
-    /* Bordure pour mieux voir l'espace SVG */
 }
 
 .axis {

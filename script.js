@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
             titleElement.textContent = `Episode ${episode} : ${episodeTitles[episode - 1]}`;
         }
     }
-    // Initialisation par défaut
     handleEpisodeChange(4); // Définit le titre par défaut à l'épisode IV
 
     // Écoutez les clics sur les boutons

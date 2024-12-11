@@ -71,7 +71,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 2
         }
         
@@ -98,7 +98,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 1
         }
       ]
@@ -124,7 +124,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 2
         }
       ]
@@ -151,7 +151,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 2
         }
       ]
@@ -178,7 +178,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 3
         }
       ]
@@ -205,7 +205,7 @@
         },
         {
           "time": "01:00",
-          "event":"Duel final de Bespin et fuite des Rebelles",
+          "event":"Duel final de Bespin",
           "planet": 3
         }
       ]

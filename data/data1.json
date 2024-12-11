@@ -44,12 +44,12 @@
         "path": [
           {
             "time": "00:00",
-            "event":"Négociation en orbite de Naboo",
+            "event":"Blocus de Naboo",
             "planet": 2
           },
           {
             "time": "00:35",
-            "event":"Libération de Anakine",
+            "event":"Libération d'Anakin",
             "planet": 2
           },
           {
@@ -59,7 +59,7 @@
           },
           {
             "time": "01:00",
-            "event":"Début de la guerre contre la Fédération du commerce",
+            "event":"Mort de Qui-Gon",
             "planet": 1
           }
         ]
@@ -70,12 +70,12 @@
         "path": [
           {
             "time": "00:00",
-            "event":"Négociation en orbite de Naboo",
+            "event":"Blocus de Naboo",
             "planet": 0
           },
           {
             "time": "00:35",
-            "event":"Libération de Anakine",
+            "event":"Libération d'Anakin",
             "planet": 2
           },
           {
@@ -85,7 +85,7 @@
           },
           {
             "time": "01:00",
-            "event":"Début de la guerre contre la Fédération du commerce",
+            "event":"Mort de Qui-Gon",
             "planet": 1
           }
         ]
@@ -97,12 +97,12 @@
         "path": [
           {
             "time": "00:00",
-            "event":"Négociation en orbite de Naboo",
+            "event":"Blocus de Naboo",
             "planet": 0
           },
           {
             "time": "00:35",
-            "event":"Libération de Anakine",
+            "event":"Libération d'Anakin",
             "planet": 2
           },
           {
@@ -118,12 +118,12 @@
         "path": [
           {
             "time": "00:00",
-            "event":"Négociation en orbite de Naboo",
+            "event":"Blocus de Naboo",
             "planet": 0
           },
           {
             "time": "00:35",
-            "event":"Libération de Anakine",
+            "event":"Libération d'Anakin",
             "planet": 2
           },
           {
@@ -133,7 +133,7 @@
           },
           {
             "time": "01:00",
-            "event":"Début de la guerre contre la Fédération du commerce",
+            "event":"Mort de Qui-Gon",
             "planet": 0
           }
         ]
@@ -145,12 +145,12 @@
         "path": [
           {
             "time": "00:00",
-            "event":"Négociation en orbite de Naboo",
+            "event":"Blocus de Naboo",
             "planet": 1
           },
           {
             "time": "00:35",
-            "event":"Libération de Anakine",
+            "event":"Libération d'Anakin",
             "planet": 2
           },
           {
