@@ -352,10 +352,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (audio.paused) {
             audio.volume = 1;
             audio.play();
+            toggleButton.classList.add("btnSound");
             toggleButton.classList.add("active");
             toggleButton.textContent = "🤫";
         } else {
             audio.pause();
+            toggleButton.classList.add("btnSound");
             toggleButton.classList.remove("active");
             toggleButton.textContent = "🎷";
         }
